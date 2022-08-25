@@ -1,0 +1,23 @@
+* {
+    font-family: sans-serif;
+    background-color: rgb(223, 231, 156);  
+}
+
+header {
+    background-color: rgb(206, 206, 109);
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(77, 20, 77);
+    background-color: rgb(206, 206, 109);    
+}
+
+a {
+    color: rgb(77, 20, 77);
+    background-color: rgb(206, 206, 109);
+}
+
+
