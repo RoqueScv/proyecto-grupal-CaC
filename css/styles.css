@@ -45,6 +45,7 @@ El flex-wrap fue la solucion
 
 
 .cointainer1, .container2, .container3 {
+    max-width: 1920px;
     width: 100%;
 }
 
