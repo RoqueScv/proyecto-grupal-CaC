@@ -33,22 +33,18 @@ section {
     height: auto;
     display: flex; 
     flex-wrap: wrap;
+/**---------------------------------------------------------------
+El flex-wrap fue la solucion
+----------------------------------*/
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.flex-container {
-    border: 10px solid gray;
     max-width: 700px;
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
 }
 
-.container2 {
+
+
+.cointainer1, .container2, .container3 {
     width: 100%;
 }
 
