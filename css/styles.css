@@ -14,6 +14,9 @@ h1 {
     color: rgb(77, 20, 77);
     background-color: rgb(206, 206, 109);    
 }
+h2 {
+    text-align: center;
+}
 
 a {
     color: rgb(77, 20, 77);
@@ -23,3 +26,11 @@ a {
 img {
     width: 50%
 }
+
+table {
+    background-color: rgb(169, 137, 42);
+    width: 100%;
+    
+}
+td {
+    font-family: monospace;}
