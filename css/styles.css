@@ -24,7 +24,7 @@ a {
 }
 
 img {
-    width: 50%
+    width: 50%;
 }
 
 table {
@@ -33,4 +33,10 @@ table {
     
 }
 td {
-    font-family: monospace;}
+    font-family: monospace;
+    padding: 5px;
+}
+
+th {
+    padding: 5px;
+}
