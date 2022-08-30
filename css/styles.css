@@ -1,3 +1,4 @@
+/* ESTILOS DE TODO*/
 * {
     font-family: sans-serif;
     background-color: rgb(223, 231, 156);  
@@ -13,9 +14,8 @@ a {
     color: rgb(77, 20, 77);
     font-size: 18px;
 }
-
-
-
+/*------------------------------------------------------------------------------------------*/
+/* ESTILOS DE pages.HTML*/
 td {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -23,7 +23,6 @@ td {
     color: rgb(26, 16, 2);
     background-color: rgb(240, 227, 130);
 }
-
 th {
     padding: 5px;
 }
@@ -32,18 +31,10 @@ section {
     border: 10px solid gray;
     display: flex;
     flex-wrap: wrap;
-
-/**---------------------------------------------------------------
-El flex-wrap fue la solucion
-----------------------------------*/
     justify-content: center;
     align-items: center;
     text-align: center;
     max-width: 1920px;
-}
-img {
-    min-width: 200px;
-    max-width: 500px;
 }
 
 table {
@@ -52,40 +43,55 @@ table {
     text-align: justify; 
     margin: 5px ;
 }
-
-
-
-
-
+/* ESTILOS DE pages.HTML*/
+/*------------------------------------------------------------------------------------------*/
+/* ESTILOS DE INDEX.HTML*/
 .cointainer1, .container2, .container3 {
     max-width: 1920px;
     width: 100%;
 }
-
-
-
-
+/* ESTILOS DE INDEX.HTML*/
+/*------------------------------------------------------------------------------------------*/
+/* ESTILOS DE ABOUTUS.HTML*/
 .caja1 {
     border: 10px solid gray;
     width: auto;
     height: auto;
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     align-items: center;
 }
-.caja2 {
+.caja2{
     border: 10px solid gray;
     width: auto;
     height: auto;
-    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+.caja2 img {
+    margin: auto;
 }
 .caja3 {
     border: 10px solid gray;
     width: auto;
     height: auto;
-    text-align: center;
-    
+    text-align: center;  
 }
+/* ESTILOS DE ABOUTUS.HTML*/
+
+/*------------------------------------------------------------------------------------------*/
+
+/* ESTILOS DE CONTACT.HTML*/
+.main-contact {
+    background-image: url("/img/2.png") ;
+    align-items: baseline;
+}
+.iframe {
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* ESTILOS DE CONTACT.HTML*/
