@@ -62,3 +62,30 @@ table {
     width: 100%;
 }
 
+
+
+
+.caja1 {
+    border: 10px solid gray;
+    width: auto;
+    height: auto;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.caja2 {
+    border: 10px solid gray;
+    width: auto;
+    height: auto;
+    
+}
+.caja3 {
+    border: 10px solid gray;
+    width: auto;
+    height: auto;
+    text-align: center;
+    
+}
