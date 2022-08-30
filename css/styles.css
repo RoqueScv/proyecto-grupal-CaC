@@ -1,7 +1,8 @@
 /* ESTILOS DE TODO*/
 * {
     font-family: sans-serif;
-    background-color: rgb(223, 231, 156);  
+    background-color: rgb(223, 231, 156);
+    overflow: hidden;  
 }
 h1 {
     font-size: 40px;
