@@ -71,14 +71,14 @@ table {
     flex-wrap: wrap;
     text-align: justify;
 }
-.caja2 img {
-    margin: auto;
-}
 .caja3 {
     border: 10px solid gray;
     width: auto;
     height: auto;
     text-align: center;  
+}
+.caja2 img {
+    margin: auto;
 }
 /* ESTILOS DE ABOUTUS.HTML*/
 
