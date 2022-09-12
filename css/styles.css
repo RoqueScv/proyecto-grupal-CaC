@@ -94,4 +94,11 @@ table {
     display: flex;
     flex-wrap: wrap;
 }
+.container-formulario {
+    display: flex;
+    
+}
+label {
+    width: 100%;
+}
 /* ESTILOS DE CONTACT.HTML*/
