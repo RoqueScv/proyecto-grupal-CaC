@@ -96,10 +96,12 @@ table {
 }
 .container-formulario {
     display: flex;
-    
-    
+
 }
-label {
-    width: 100%;
+.container-formulario div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
+
 /* ESTILOS DE CONTACT.HTML*/
