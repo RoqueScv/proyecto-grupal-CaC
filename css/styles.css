@@ -1,7 +1,8 @@
 /* ESTILOS DE TODO*/
 * {
     font-family: sans-serif;
-    background-color: rgb(223, 231, 156); 
+    background-color: rgb(255, 218, 138);
+    color: rgb(0, 0, 0);
 }
 h1 {
     font-size: 40px;
@@ -11,7 +12,7 @@ h2 {
     width: 100%;
 }
 a {
-    color: rgb(77, 20, 77);
+    color: rgb(20, 6, 20);
     font-size: 18px;
 }
 /*------------------------------------------------------------------------------------------*/
@@ -25,6 +26,7 @@ td {
 }
 th {
     padding: 5px;
+    background-color: rgb(223, 231, 156);
 }
 
 section {
@@ -86,8 +88,8 @@ table {
 
 /* ESTILOS DE CONTACT.HTML*/
 .main-contact {
-    background-image: url("/img/2.png") ;
     align-items: baseline;
+    border: 10px solid gray;
 }
 .iframe {
     width: 10%;
@@ -96,13 +98,14 @@ table {
 }
 .container-formulario {
     display: flex;
-   
-
+    border: 10px solid gray;
+    flex-direction: column;
 }
 .container-formulario div {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    
 }
 
 /* ESTILOS DE CONTACT.HTML*/
