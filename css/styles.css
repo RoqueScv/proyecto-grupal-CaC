@@ -64,9 +64,11 @@ table {
 }
 .container-formulario div {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     margin: 10px;
+    width: 400px;
+    height: 100px;
 }
 .container-iframe {
     display: flex;
@@ -85,6 +87,16 @@ h3 {
     border: 10px solid gray;
     display: flex;
     align-items: center;
+}
+
+.button{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+
+
+
 }
 
 /* ESTILOS DE CONTACT.HTML*/
