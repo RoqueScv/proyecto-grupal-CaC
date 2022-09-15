@@ -59,6 +59,8 @@ table {
 .container-formulario {
     display: flex;
     flex-direction: column;
+    height: auto;
+    width: auto;
 }
 .container-formulario div {
     display: flex;
