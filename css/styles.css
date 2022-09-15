@@ -30,16 +30,6 @@ th {
     background-color: rgb(223, 231, 156);
 }
 
-section {
-    border: 10px solid gray;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    max-width: 1920px;
-}
-
 table {
     background-color: rgba(23, 20, 11, 0.838);
     width: 100%;   
@@ -99,6 +89,7 @@ table {
     display: flex;
     border: 10px solid gray;
     flex-direction: column;
+    align-items: center;
     border-bottom: 0ch;
 }
 .container-formulario div {
@@ -123,6 +114,10 @@ h3 {
     text-align: center;
     font-size: 7vw;
 }
-
+.container-footer {
+    border: 10px solid gray;
+    display: flex;
+    align-items: center;
+}
 
 /* ESTILOS DE CONTACT.HTML*/
