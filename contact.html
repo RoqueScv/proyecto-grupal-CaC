@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -16,13 +16,32 @@
                 <a href="contact.html">Contacto</a>
                 <a href="login.html">Iniciar Sesión</a>
             </div>
-            <h1>Solini Vinilos</h1>
-        <div>
-    </header>
+            <h1>Contacto</h1>
+            
+        <div> 
+            <div class="logo_color"><img src="/img/1.png" width="80" alt="logo">
+            </div>  <br> 
+        </header>
+            <!-- <main>
+                <div class="container">
+                ::before
+                <div class="row general"> 
+                    ::before
+                    <div class="col-md-6">...</div>
+                    <aside class="col-md-6">...</aside>
+                    ::after
+                </div>                                   
+                
+
+                </div>
+            </main>
+
+
+   
         
-    
-    <main>
-        <div class="container-main">
+     -->
+   
+        <!-- <main> <div class="container-main">
             <h3>Formulario de contacto</h3>
             <p> Si tiene alguna consulta, comentario o necesita ayuda, dejenos su información y a la brevedad nos comunicaremos con usted.</p>
             <div class="container-formulario">
@@ -39,9 +58,9 @@
                         <div class="email">
                             <label for="email">E-mail</label>
                             <input type="text" name="email" id="email" placeholder="Escriba su email aqui">
-                        </div>
+                        </div> --> -->
             
-<!-- PASSWORD
+ <!-- PASSWORD
                     <div>
                             <label for="password">Password</label>
                             <input type="text" name="password" id="password" placeholder="Escriba su password aqui">
@@ -51,8 +70,9 @@
                         <input type="text" name="repetir-password" id="repetir-password" placeholder="Repita su password aqui">
                     </div> 
 PASSWORD --> 
-                    <div class="consulta">
-                        <label for="consulta">Dejanos tu consulta:</label>
+                <!--     <div class="consulta"> -->
+                    
+                        <!-- <label for="consulta">Dejanos tu consulta:</label>
                         <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea> 
                     </div>
                     <div class="button">
@@ -63,16 +83,169 @@ PASSWORD -->
                 </form>
             </div>
         </div>
-        <div class="container-iframe">
-            <h3> Nuestra locación:</h3>
+        <div class="container-iframe"> -->
+            <!--<h3> Nuestra locación:</h3>
+
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0165438107247!2d-58.38273316091184!3d-34.60374316577155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1661608771823!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </main>
+    </main> -->
 
-
+<!-- 
     <footer>
         <p>Todos los derechos reservados.</p>
     </footer>
     
 </body>
-</html>
+</html> -->
+
+
+         
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" > -->
+
+       
+
+     
+  
+
+    <h1>Dejanos tu consulta</h1>
+ 
+      
+
+
+
+
+    <header class="cabezera">
+        <div class="cab_nav">
+            
+            <!-- <h2 class="nomb_logo">vinilos</h2> -->
+            
+             
+          <nav>
+            <!-- <ul>
+                <li><a href="../templates/index.html">Inicio</a></li>
+                <li><a href="../templates/clases.html">Clases</a></li>
+                <li><a href="../templates/contacto.html">Contacto</a></li>
+
+              <!-- <a href="mailto:recreartebaires@gmail.com" title="">Enviar correo a Recreartebaires</a>   -->
+            <!-- </ul>  -->
+          </nav> 
+            
+        </div> 
+       
+    </header> 
+
+    <body>
+   
+  <h4>  ✍Para todo tipo de preguntas, comentarios e inquietudes -por favor- completa el formulario a continuación: </h4>  <br><br>
+
+  
+   
+  <div id="after_submit"></div>
+  
+  <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    <div class="row">
+      <label class="required" for="name">Nombre:</label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+      <span id="name_validation" class="error_message"></span>
+    </div>
+    <div class="row">
+        <label class="required" for="phone">Telefono:</label><br />
+        <input id="phone" class="input" name="phone" type="text" value="" size="30" /><br />
+        <span id="phone_validation" class="error_message"></span>
+      </div>
+ 
+      <div class="row">
+        <label class="required" for="email">email:</label><br />
+        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+        <span id="email_validation" class="error_message"></span>
+      </div>
+     
+ 
+    <div class="row">
+      <label class="required" for="issue">Asunto:</label><br />
+      <input id="issue" class="input" name="issue" type="text" value="" size="30" /><br />
+      <span id="issue_validation" class="error_message"></span>
+    </div>
+    <div class="row">
+      <label class="required" for="message">Mensaje:</label><br />
+      <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+      <span id="message_validation" class="error_message"></span>
+    </div>
+     
+      <input id="submit_button" type="submit" value="Enviar" />
+      <input type="color" name="" id=""> 
+
+  </form>
+  
+
+<h2>Contactanos y seguinos en nuestras redes sociales</h2> <br><br>
+
+
+<div class="redes">
+<ul>
+<a href="https://Whatsapp.com">Whatsapp</a>
+</ul>
+<ul>
+<li>Telefono: +54 9 11 6150-2976</li>
+</ul>
+<a href="https://gmail.com">Gmail</a>
+<ul>
+<li>soliniVinilos@gmail.com</li>
+</ul>
+<a href="https://Instagram.com">Instagram</a>
+<ul>
+<li>/soliniVinilos</li>
+</ul>
+<a href="https://Facebook.com">Facebook</a>
+<ul>
+<li>/soliniVinilos</li>
+</ul>
+</div>
+
+
+
+ 
+
+
+
+<div class="container-iframe"> 
+    <p>  Estamos en Av. Corrientes 1250 <br>
+      San Nicolas - CABA</p>
+       <!-- <noscript>
+      <iframe src="https://www.google.com.ar/maps/place/Av.+Corrientes+1250,+C1043AAZ+CABA/@-34.6039656,-58.3865153,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccac5e8f9a719:0x7430b4b32eff9e6a!8m2!3d-34.60397!4d-58.3843213"  width="0" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <!-- height="300" width="110" style="display: none; visibility:hidden" ></iframe>" </noscript>-->
+    
+
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0165438107247!2d-58.38273316091184!3d-34.60374316577155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1661608771823!5m2!1ses-419!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+
+   <p>Lunes a Viernes de 9 a 18 hs</p>
+   
+<!-- <ul>
+    <li>AV. Corrientes 930</li>
+    <li>San Nicolas - CABA</li>
+    <li>(011) 2547-3689</li>
+    <li>info@soliniVinilos.com.ar</li>
+</ul> -->
+</div>
+<a href="https://wa.me/5491161502976" target="_blank" class="ico-whatsapp">
+<i class="fa fa-whatsapp">
+    <span>¡Estamos Online!</span></a>   
+</i>
+</main> 
+
+<footer>
+<p>Todos los derechos reservados.</p>
+<p class="foot_p">Pag web protegida por Rb Vinilos © 2022<b></b>
+ <br> soliniVinilos@gmail.com 
+<br>  <b> +54 9 11 6150-2976 </b>
+<br>  <b> @vinilos </b></p>
+</footer>
+
+</body>
+</html> 
+
+<footer class="foot">
+  
+  
+  
