@@ -12,7 +12,7 @@ h2 {
     text-align: center;
 }
 a {
-    color: rgb(20, 6, 20);
+    color: rgb(34, 48, 249);
     font-size: 18px;
 }
 td {
@@ -95,8 +95,95 @@ h3 {
     flex-wrap: nowrap;
     align-items: center;
 
+}
 
+.container-main-vinilos{
 
+    width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.viniloABBA{
+    border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    background-image: url('/img/Abba-GoldLP.jpg');
+}
+.viniloBeyonce{
+    border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    background-image: url('/img/Beyonce-Renaissance.webp');
+
+}
+.viniloDisclosure{
+    border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    background-image: url('/img/Disclosure-energy.jpg');
+
+}
+.viniloDL{
+    border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    background-image: url('/img/FutureNostalgiaCover.jpg');
+
+}
+.viniloGC{
+    border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    background-image: url('/img/BocanadaGC.jpg');
+
+}
+.viniloLG{
+    border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+    background-image: url('/img/ChromaticaLP.jpg');
+
+}
+
+.texto-vinilos{
+ 
+    color: white;
+    font-size: medium;
 }
 
 /* ESTILOS DE CONTACT.HTML*/
