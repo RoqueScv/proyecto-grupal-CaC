@@ -184,6 +184,10 @@ h3 {
     font-size: medium;
 }
 
+.container-main-vinilos div p, .container-main-vinilos div p a {
+    background-color: aqua;
+}
+
 /* ESTILOS DE CONTACT.HTML*/
 
 
