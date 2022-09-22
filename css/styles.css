@@ -33,7 +33,7 @@ table {
     text-align: justify; 
     margin: 5px ;
 }
-.container-header {
+.header {
    background-color: rgb(255, 218, 138);
     border: 10px solid gray;
     display: flex;
@@ -43,7 +43,7 @@ table {
     text-align: center;
     max-width: 1920px;
 }
-.container-main {
+.main {
     background-color: rgb(255, 218, 138);
     border: 10px solid gray;
     display: flex;
@@ -55,16 +55,16 @@ table {
     margin: 0;
     padding: 0;
 }
-.container-main p {
+.main p {
     margin: 15px;
 }
-.container-formulario {
+.formulario {
     display: flex;
     flex-direction: column;
     height: auto;
     width: auto;
 }
-.container-formulario div {
+.formulario div {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -72,7 +72,7 @@ table {
     width: 400px;
     height: 100px;
 }
-.container-iframe {
+.iframe {
     display: flex;
     border: 10px solid gray;
     flex-direction: column;
@@ -85,7 +85,7 @@ h3 {
     text-align: center;
     font-size: 7vw;
 }
-.container-footer {
+.footer {
     border: 10px solid gray;
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@ h3 {
 
 }
 
-.container-main-vinilos{
+.main-vinilos{
 
     width: 90%;
 	max-width: 1200px;
@@ -186,10 +186,10 @@ h3 {
     font-size: medium;
 }
 
-.container-main-vinilos div p, .container-main-vinilos div p a {
+.main-vinilos div p, .container-main-vinilos div p a {
     background-color: rgb(185, 199, 199);
 }
-.container-main-vinilos div p  {
+.main-vinilos div p  {
     background-color:rgba(185, 199, 199, 0.5)
 }
 
