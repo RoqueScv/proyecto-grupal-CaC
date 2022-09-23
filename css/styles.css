@@ -7,33 +7,6 @@
     color: rgb(0, 0, 0);
     /*background-color: rgb(255, 218, 138);*/
 }
-.titulo-principal {
-    font-size: 40px;
-    width: 100%;
-    text-align: center;
-}
-.subtitulo-h2 {
-    width: 100%;
-    text-align: center;
-}
-td {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    padding: 5px;
-    color: rgb(26, 16, 2);
-    background-color: rgb(240, 227, 130);
-}
-th {
-    padding: 5px;
-    background-color: rgb(223, 231, 156);
-}
-
-table {
-    background-color: rgba(23, 20, 11, 0.838);
-    width: 100%;   
-    text-align: justify; 
-    margin: 5px ;
-}
 /* ESTILOS BARRA DE NAVEGACION*/
 .header {
     background-color: rgb(58, 40, 0);
@@ -41,7 +14,7 @@ table {
     justify-content: space-between;
     align-items: center;
     height: 85px;
-    padding: 5px 10%
+    padding: 5px 10%;
 }
 .header .logo {
     cursor: pointer;
@@ -83,8 +56,6 @@ table {
     color: rgb(249, 206, 67);
     transform: scale(1.1);
 }
-
-
 /* ESTILOS BARRA DE NAVEGACION*/
 .main {
     background-color: rgb(255, 218, 138);
@@ -94,10 +65,37 @@ table {
     align-items: center;
     flex-direction: column;
     margin: 0;
-    padding: 0;
+    padding: 50px;
 }
-.main p {
-    margin: 15px;
+.titulo-principal {
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 40px;
+}
+
+.subtitulo-h2 {
+    width: 100%;
+    text-align: center;
+}
+.main-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 700px;
+    height: auto;
+}
+.main-img img {
+    width: 600px;
+    height: auto;
+}
+.main-img p {
+    width: 600px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    text-align: justify;
 }
 .formulario {
     display: flex;
@@ -125,10 +123,27 @@ table {
     text-align: center;
     font-size: 7vw;
 }
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    color: rgb(26, 16, 2);
+    background-color: rgb(240, 227, 130);
+}
+th {
+    padding: 5px;
+    background-color: rgb(223, 231, 156);
+}
+
+table {
+    background-color: rgba(23, 20, 11, 0.838);
+    width: 100%;   
+    text-align: justify; 
+    margin: 5px ;
+}
 .footer {
-    display: flex;
-    align-items: center;
     background-color: rgb(255, 218, 138);
+    text-align: center;
 }
 .button{
     display: flex;
@@ -229,7 +244,9 @@ table {
 }
 
 /* ESTILOS DE CONTACT.HTML*/
-
+textarea {
+    resize: none;
+}
 
 .ico-whatsapp {
     position: fixed;
