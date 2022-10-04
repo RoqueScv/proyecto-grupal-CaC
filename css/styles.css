@@ -153,11 +153,11 @@ table {
 }
 .main-vinilos{
     width: 90%;
-	max-width: 1200px;
+	max-width: 800px;
 	margin: auto;
 	padding: 40px 0;
 	display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 200px 200px 200px 200px;
     gap: 20px;
 }
 .main-vinilos div p, .container-main-vinilos div p a {
@@ -239,8 +239,12 @@ table {
 }
 
 .texto-vinilos{
-    color: white;
+    color: black;
     font-size: medium;
+}
+.texto-center{
+    display: flex;
+    justify-content: center;
 }
 
 /* ESTILOS DE CONTACT.HTML*/
