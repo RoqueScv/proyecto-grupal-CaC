@@ -76,7 +76,7 @@
     flex-direction: column;
     align-items: center;
     align-content: center;
-    width: 700px;
+    width: auto;
     height: auto;
 }
 .main-img img {
@@ -125,9 +125,13 @@ table {
     flex-wrap: nowrap;
     align-items: center;
 }
+
+.contact-iframe{
+    margin: auto;
+}
 .main-vinilos{
     width: 90%;
-	max-width: 800px;
+	max-width: 860px;
 	margin: auto;
 	padding: 40px 0;
 	display: grid;
@@ -141,75 +145,10 @@ table {
     background-color:rgba(185, 199, 199, 0.5)
 }
 
-.viniloABBA{
-    border-radius: 10px;
-	min-height: 200px;
-	font-weight: bold;
-	padding: 20px;
-	position: relative;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-    background-image: url('/img/Abba-GoldLP.jpg');
-}
-.viniloBeyonce{
-    border-radius: 10px;
-	min-height: 200px;
-	font-weight: bold;
-	padding: 20px;
-	position: relative;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-    background-image: url('/img/Beyonce-Renaissance.webp');
-
-}
-.viniloDisclosure{
-    border-radius: 10px;
-	min-height: 200px;
-	font-weight: bold;
-	padding: 20px;
-	position: relative;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-    background-image: url('/img/Disclosure-energy.jpg');
-
-}
-.viniloDL{
-    border-radius: 10px;
-	min-height: 200px;
-	font-weight: bold;
-	padding: 20px;
-	position: relative;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-    background-image: url('/img/FutureNostalgiaCover.jpg');
-
-}
-.viniloGC{
-    border-radius: 10px;
-	min-height: 200px;
-	font-weight: bold;
-	padding: 20px;
-	position: relative;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-    background-image: url('/img/BocanadaGC.jpg');
-
-}
-.viniloLG{
-    border-radius: 10px;
-	min-height: 200px;
-	font-weight: bold;
-	padding: 20px;
-	position: relative;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-    background-image: url('/img/ChromaticaLP.jpg');
+.main-index{
+    background-color: rgb(255, 218, 138);
+    display: grid;
+    grid-template-rows: 3fr 20fr;
 }
 
 .texto-vinilos{
