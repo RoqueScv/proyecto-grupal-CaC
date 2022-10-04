@@ -57,19 +57,16 @@
     transform: scale(1.1);
 }
 /* ESTILOS BARRA DE NAVEGACION*/
-.main {
+.main-contact {
     background-color: rgb(255, 218, 138);
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 200px;
+    grid-template-columns: 1fr 1fr;
+    /*grid-template-rows: 1fr 1fr;*/
 }
-.titulo-principal {
-    font-size: 40px;
-    width: 100%;
-    text-align: center;
-    padding: 20px 0 40px;
+.h1-contacto {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
-
 .subtitulo-h2 {
     width: 100%;
     text-align: center;
@@ -118,7 +115,9 @@ table {
 }
 .footer {
     background-color: rgb(255, 218, 138);
+    display: flex;
     text-align: center;
+    border: #000000 solid 1px;   
 }
 .button{
     display: flex;
