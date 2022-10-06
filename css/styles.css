@@ -157,7 +157,11 @@ table {
     display: grid;
     grid-template-rows: auto auto auto auto;
 }
-
+.main-aboutus {
+    background-color: rgb(255, 218, 138);
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
 .titulo-index{
     grid-row-start: 1;
     text-align: center;
