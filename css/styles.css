@@ -192,7 +192,8 @@ table {
 .main-index{
     background-color: rgb(255, 218, 138);
     display: grid;
-    grid-template-rows: 60px 500px 1000px;
+    /*grid-template-rows: 60px 600px 1000px;*/
+    grid-template-rows: 0.7fr 5fr 15fr;
     border: burlywood solid 10px;
 }
 .main-aboutus {
@@ -204,12 +205,10 @@ table {
     grid-row-start: 1;
     text-align: center;
 }
-
 .main-index-img {
     width: auto;
     height: auto;
-    text-align: center;
-    
+    text-align: center; 
 }
 .main-index-img img {
     width: 700px;
@@ -234,11 +233,7 @@ table {
     justify-content: center;
 }
 
-
 /* ESTILOS DEL INDEX*/
-
-
-
 
 .ico-whatsapp {
     position: fixed;
