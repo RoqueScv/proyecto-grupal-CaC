@@ -1,3 +1,5 @@
+/*ESTILOS GENERALES*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,6 +8,18 @@
     font-size: 20px;
     color: rgb(0, 0, 0);
 }
+.subtitulo-h2 {
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+}
+.titulo-principal{
+    font-size:2.5vw;
+}
+
+
+
+
 /* ESTILOS BARRA DE NAVEGACION*/
 .header {
     background-color: rgb(58, 40, 0);
@@ -55,46 +69,53 @@
     color: rgb(249, 206, 67);
     transform: scale(1.1);
 }
+
+.btn{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+}
 /* ESTILOS BARRA DE NAVEGACION*/
+
+
+
+
+/* ESTILOS PÁGINA DE CONTACTO*/
 .main-contact {
     background-color: rgb(255, 218, 138);
     display: grid;
     grid-template-columns: 1fr 1fr;
     /*grid-template-rows: 1fr 1fr;*/
 }
-.main-ft{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 3%;
-}
 .h1-contacto {
     grid-column-start: 1;
     grid-column-end: 3;
-}
-.subtitulo-h2 {
-    width: 100%;
-    text-align: center;
-    font-size: x-large;
-}
-.main-img {
-    width: auto;
-    height: auto;
-}
-.main-img img {
-    width: 600px;
-    height: auto;
-}
-.main-img p {
-    width: 600px;
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-    text-align: justify;
 }
 .formulario-contacto {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 25% 25% 25% 25%;
+}
+.contact-iframe{
+    margin: auto;
+}
+
+.textarea {
+    resize: none;
+}
+/* ESTILOS PÁGINA DE CONTACTO*/
+
+
+
+
+
+
+/* ESTILOS DE LAS FICHAS TÉCNICAS*/
+.main-ft{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 3%;
 }
 td {
     font-family: Arial, Helvetica, sans-serif;
@@ -107,30 +128,30 @@ th {
     padding: 5px;
     background-color: rgb(223, 231, 156);
 }
-
 table {
     background-color: rgba(23, 20, 11, 0.838);
     width: 100%;   
     text-align: justify; 
     margin: 5px ;
 }
+/* ESTILOS DE LAS FICHAS TÉCNICAS*/
+
+
+
+
+
+/* ESTILOS DEL FOOTER*/
 .footer {
     background-color: rgb(255, 218, 138);
     display: flex;
     text-align: center;   
 }
-.button{
-    display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
-    align-items: center;
-}
+/* ESTILOS DEL FOOTER*/
 
-.contact-iframe{
-    margin: auto;
-}
+
+
+/* ESTILOS DEL INDEX */
 .main-vinilos{
-
     width: 90%;
 	max-width: 1000px;
 	margin:auto;
@@ -138,6 +159,7 @@ table {
 	display: grid;
     grid-template-columns: 200px 200px 200px 200px;
     gap: 25px;
+    border: burlywood solid 10px;
 }
 .main-vinilos div p, .container-main-vinilos div p a {
     background-color: rgb(185, 199, 199);
@@ -149,7 +171,8 @@ table {
 .main-index{
     background-color: rgb(255, 218, 138);
     display: grid;
-    grid-template-rows: 50px 500px 1000px;
+    grid-template-rows: 60px 500px 1000px;
+    border: burlywood solid 10px;
 }
 .main-aboutus {
     background-color: rgb(255, 218, 138);
@@ -161,10 +184,24 @@ table {
     text-align: center;
 }
 
-.titulo-principal{
-    font-size: xx-large;
+.main-index-img {
+    width: auto;
+    height: auto;
+    text-align: center;
+    
 }
-
+.main-index-img img {
+    width: 700px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+}
+.main-index-img p {
+    padding: 20px;
+    font-size: x-large;
+    align-items: center;
+    text-align: center;
+}
 .texto-vinilos{
     color: black;
     font-size: medium;
@@ -176,10 +213,11 @@ table {
     justify-content: center;
 }
 
-/* ESTILOS DE CONTACT.HTML*/
-textarea {
-    resize: none;
-}
+
+/* ESTILOS DEL INDEX*/
+
+
+
 
 .ico-whatsapp {
     position: fixed;
