@@ -1,5 +1,4 @@
-/*ESTILOS GENERALES*/
-
+/*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,13 +14,13 @@
     font-size: xx-large;
 }
 .titulo-principal{
-    font-size:2.5vw;
+    font-size: 4vw;
+    margin-top: 2vh;
 }
+/*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/
 
 
-
-
-/* ESTILOS BARRA DE NAVEGACION*/
+/* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
 .header {
     background-color: rgb(58, 40, 0);
     display: flex;
@@ -42,12 +41,12 @@
 }
 .header .nav-links {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    padding: 0px;
-    margin: 0px;
-    list-style-type: none;   
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    justify-content: space-between;   
 }
 .header .nav-links li:hover {
     transform: scale(1.1);
@@ -56,7 +55,6 @@
     font-size: 1em;
     text-decoration: none;
     color: aliceblue;
-    
 }
 .header .nav-links a:hover{
     color: rgb(249, 206, 67);
@@ -64,19 +62,18 @@
 .header .btn button {
     font-weight: 1em;
     color: black;
-    padding: 1em 2em;
+    padding: 1em 1em 2em 1em;
     background: #fff;
     border: none;
-    border-radius: 25px;
+    border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    height: 5vh;
+    height: 1vh;
 }
 .header .btn button:hover {
     color: rgb(249, 206, 67);
     transform: scale(1.1);
 }
-
 .buttons {
     display: flex;
     flex-direction: row;
@@ -87,12 +84,9 @@
 .buttons a {
     margin: 1vw;
 }
-/* ESTILOS BARRA DE NAVEGACION*/
+/* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
 
-
-
-
-/* ESTILOS PÁGINA DE CONTACTO*/
+/* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/
 .main-contact {
     background-color: rgb(255, 218, 138);
     display: grid;
@@ -105,7 +99,6 @@
     grid-row-end: 1;
     grid-row-start: 2;
     text-align: center;
-
 }
 .formulario-contacto {
     display: flex;
@@ -121,7 +114,6 @@
 .form-item {
     display: flex;
     flex-direction: column;
-
 }
 .contact-iframe{
     padding: 10px 10px;
@@ -136,18 +128,12 @@
     width: 100%;
     height: 100%;
 }
-
 .textarea {
     resize: none;
 }
-/* ESTILOS PÁGINA DE CONTACTO*/
+/* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/
 
-
-
-
-
-
-/* ESTILOS DE LAS FICHAS TÉCNICAS*/
+/* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/
 .main-ft{
     background-color: rgb(255, 218, 138);
     display: grid;
@@ -197,20 +183,16 @@ table {
     align-items: center;
 
 }
-/* ESTILOS DE LAS FICHAS TÉCNICAS*/
+/* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/
 
-
-
-
-
-/* ESTILOS DEL FOOTER*/
+/* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/
 .footer {
     background-color: rgb(255, 218, 138);
     display: flex;
     text-align: center; 
     flex-direction: column;  
 }
-/* ESTILOS DEL FOOTER*/
+/* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/
 
 
 
