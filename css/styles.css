@@ -47,6 +47,7 @@
     flex-wrap: nowrap;
     padding: 0px;
     margin: 0px;
+    list-style-type: none;   
 }
 .header .nav-links li:hover {
     transform: scale(1.1);
@@ -55,6 +56,7 @@
     font-size: 1em;
     text-decoration: none;
     color: aliceblue;
+    
 }
 .header .nav-links a:hover{
     color: rgb(249, 206, 67);
@@ -75,11 +77,15 @@
     transform: scale(1.1);
 }
 
-.btn{
+.buttons {
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
+}
+.buttons a {
+    margin: 1vw;
 }
 /* ESTILOS BARRA DE NAVEGACION*/
 
@@ -155,7 +161,7 @@ td {
     background-color: rgb(240, 227, 130);
 }
 table ul{
-    list-style-type:none;  /* Elimina el Bullet de la lista */
+    list-style-type: none;  /* Elimina el Bullet de la lista */
     text-align: center;
 
 }
