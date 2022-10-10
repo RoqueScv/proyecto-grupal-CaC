@@ -10,8 +10,9 @@
 }
 .subtitulo-h2 {
     width: 100%;
+    padding: 1vw;
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
 }
 .titulo-principal{
     font-size:2.5vw;
@@ -64,7 +65,7 @@
     padding: 1em 2em;
     background: #fff;
     border: none;
-    border-radius: 50px;
+    border-radius: 25px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     height: 5vh;
@@ -142,26 +143,53 @@
 
 /* ESTILOS DE LAS FICHAS TÉCNICAS*/
 .main-ft{
+    background-color: rgb(255, 218, 138);
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 3%;
+    grid-template-rows: 0.7fr 3fr 4fr;
 }
 td {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    padding: 5px;
+    font-size: 1.1vw;
+    padding: 1vw;
     color: rgb(26, 16, 2);
     background-color: rgb(240, 227, 130);
+    text-align: center;
 }
 th {
-    padding: 5px;
+    font-size: 1.2vw;
+    text-align: center;
+    padding: 1vw;
     background-color: rgb(223, 231, 156);
 }
 table {
     background-color: rgba(23, 20, 11, 0.838);
-    width: 100%;   
+    width: 90%;   
     text-align: justify; 
-    margin: 5px ;
+    margin: 1vw auto;
+}
+.div-img{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.yt-a{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+
+}
+.div-tabla{
+
+}
+
+.div-tabla table{
+ 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
 }
 /* ESTILOS DE LAS FICHAS TÉCNICAS*/
 
@@ -201,7 +229,6 @@ table {
 .main-index{
     background-color: rgb(255, 218, 138);
     display: grid;
-    /*grid-template-rows: 60px 600px 1000px;*/
     grid-template-rows: 0.7fr 5fr 15fr;
     border: burlywood solid 10px;
 }
@@ -211,6 +238,7 @@ table {
     grid-template-rows: auto auto auto auto;
 }
 .titulo-index{
+    margin: 0.5vw auto;
     grid-row-start: 1;
     text-align: center;
 }
@@ -220,7 +248,8 @@ table {
     text-align: center; 
 }
 .main-index-img img {
-    width: 700px;
+
+    width: 40vw;
     height: auto;
     align-items: center;
     text-align: center;
