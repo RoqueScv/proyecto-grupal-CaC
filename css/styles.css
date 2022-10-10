@@ -183,6 +183,16 @@ table {
     align-items: center;
 
 }
+
+.redireccion{
+    text-align: center;
+    margin: 1vw;
+    background-color: rgb(186, 205, 11);
+}
+
+.redireccion a{
+    font-weight: bolder;
+}
 /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/
 
 /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/
