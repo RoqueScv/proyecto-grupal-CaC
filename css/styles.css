@@ -39,14 +39,20 @@
 .header .logo img:hover {
     transform: scale(1.2);
 }
+.header nav {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
 .header .nav-links {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: nowrap;
     padding: 10px;
     margin: 10px;
     list-style-type: none;
-    justify-content: space-between;   
+    width: 100%;
 }
 .header .nav-links li:hover {
     transform: scale(1.1);
@@ -55,8 +61,7 @@
     font-size: 1em;
     text-decoration: none;
     color: aliceblue;
-    display: flex;
-
+    justify-content: space-between; 
 }
 .header .nav-links a:hover{
     color: rgb(249, 206, 67);
