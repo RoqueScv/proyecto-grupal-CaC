@@ -27,28 +27,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8vw;
-    padding: 5px 10%;
+    height: 15vh;
+    padding: 5px 5%;
 }
 .header .logo {
     cursor: pointer;
 }
 .header .logo img {
-    height: 5vw;
+    height: 15vh;
     transition: all 0.3s;
 }
 .header .logo img:hover {
     transform: scale(1.2);
 }
-.header .nav-links li {
-    display:inline-flex;
-    padding: 0 20px;
+.header .nav-links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0px;
+    margin: 0px;
 }
 .header .nav-links li:hover {
     transform: scale(1.1);
 }
 .header .nav-links a {
-    font-size: 1.5vw;
+    font-size: 1em;
     text-decoration: none;
     color: aliceblue;
 }
@@ -56,14 +60,15 @@
     color: rgb(249, 206, 67);
 }
 .header .btn button {
-    font-weight: 7vw;
+    font-weight: 1em;
     color: black;
-    padding: 9px 25px;
+    padding: 1em 2em;
     background: #fff;
     border: none;
     border-radius: 25px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    height: 5vh;
 }
 .header .btn button:hover {
     color: rgb(249, 206, 67);
@@ -104,7 +109,7 @@
     grid-column-end: 3;
     grid-row-end: 2;
     grid-row-start: 3;
-    width: 350px;
+    width: 40vw;
     margin: 10px 30px 10px 30px;
 }
 .form-item {
@@ -118,6 +123,10 @@
     grid-column-end: 2;
     grid-row-end: 2;
     grid-row-start: 3;
+    width: 100%;
+    height: 100%;
+}
+.contact-iframe iframe {
     width: 100%;
     height: 100%;
 }
@@ -304,13 +313,17 @@ table {
         text-align: center;
     
     }
+    .titulo-principal{
+        font-size: 1.5em;
+    }
     .formulario-contacto {
-
         grid-row-end: 2;
         grid-row-start: 3;
         grid-column-start: 1;
         grid-column-end: 3;
         margin: 1px 3px;
+        width: 90%;
+        margin: 1vh auto;
     }
     .form-item {
         display: flex;
@@ -321,6 +334,8 @@ table {
         grid-row-start: 4;
         grid-column-start: 1;
         grid-column-end: 3;
+        width: 90%;
+        margin: 10vh auto;
     }
     .header {
         width: 100%;
@@ -333,20 +348,20 @@ table {
 
 
 
+/* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
 
     .header {
         background-color: rgb(58, 40, 0);
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 3vw;
-        padding: 5px 10%;
+        height: 15vh;
     }
     .header .logo {
         cursor: pointer;
     }
     .header .logo img {
-        height: 1vw;
+        height: 8vh;
         transition: all 0.3s;
     }
     .header .logo img:hover {
@@ -360,17 +375,17 @@ table {
         transform: scale(1.1);
     }
     .header .nav-links a {
-        font-size: 5px;
+        font-size: 0.7em;
         text-decoration: none;
         color: aliceblue;
+
     }
     .header .nav-links a:hover{
         color: rgb(249, 206, 67);
     }
     .header .btn button {
-        font-weight: 2px;
+        font-size: 0.5em;
         color: black;
-        padding: 4.5px 12px;
         background: #fff;
         border: none;
         border-radius: 15px;
@@ -382,14 +397,19 @@ table {
         transform: scale(1.1);
     }
     
-    .btn{
+    .buttons {
         display: flex;
-        flex-direction: row-reverse;
-        flex-wrap: nowrap;
+        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
+        justify-content: space-around;
+    }
+    .buttons a {
+        margin: 1vw;
     }
 
 
+/* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/
 
 
 
