@@ -47,6 +47,7 @@
     flex-wrap: nowrap;
     padding: 0px;
     margin: 0px;
+    list-style-type: none;
 }
 .header .nav-links li:hover {
     transform: scale(1.1);
@@ -155,7 +156,7 @@ td {
     background-color: rgb(240, 227, 130);
 }
 table ul{
-    list-style-type:none;  /* Elimina el Bullet de la lista */
+    list-style-type: none;  /* Elimina el Bullet de la lista */
     text-align: center;
 
 }
