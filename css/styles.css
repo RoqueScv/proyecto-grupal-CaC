@@ -99,6 +99,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 5fr 1fr;
+    border: burlywood solid 10px;
 }
 .h1-contacto {
     grid-column-start: 1;
@@ -145,6 +146,7 @@
     background-color: rgb(255, 218, 138);
     display: grid;
     grid-template-rows: 0.3fr 0.7fr 3fr 4fr;
+    border: burlywood solid 10px;
 }
 td {
     font-family: Arial, Helvetica, sans-serif;
@@ -194,7 +196,7 @@ table {
 .redireccion{
     text-align: center;
     margin: 1vw;
-    background-color: rgb(186, 205, 11);
+    background-color: rgba(194, 214, 19, 0.737) 
 }
 
 .redireccion a{
@@ -240,7 +242,7 @@ table {
 .main-index{
     background-color: rgb(255, 218, 138);
     display: grid;
-    grid-template-rows: 0.7fr 5fr 15fr;
+    grid-template-rows: 0.7fr 5fr 10fr;
     border: burlywood solid 10px;
 }
 .main-aboutus {
