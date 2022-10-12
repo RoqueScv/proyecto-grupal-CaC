@@ -21,6 +21,7 @@
 
 
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
+/*
 .header {
     background-color: rgb(58, 40, 0);
     display: flex;
@@ -29,11 +30,8 @@
     height: 15vh;
     padding: 5px 5%;
 }
-.header .logo {
-    cursor: pointer;
-}
 .header .logo img {
-    height: 15vh;
+    height: 12vh;
     transition: all 0.3s;
 }
 .header .logo img:hover {
@@ -47,8 +45,8 @@
 .header .nav-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
     padding: 10px;
     margin: 10px;
     list-style-type: none;
@@ -58,13 +56,13 @@
     transform: scale(1.1);
 }
 .header .nav-links a {
-    font-size: 1em;
+    font-size: 0.9em;
     text-decoration: none;
     color: aliceblue;
-    justify-content: space-between; 
 }
 .header .nav-links a:hover{
     color: rgb(249, 206, 67);
+    text-decoration: underline;
 }
 .header .btn button {
     font-weight: 1em;
@@ -91,6 +89,98 @@
 .buttons a {
     margin: 1vw;
 }
+*/
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
 
 /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/
@@ -294,24 +384,15 @@ table {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 1vw;
+    padding: 1.2vw;
     background: #25D366;
     color: #fff;
     border-radius: 50px;
     line-height: 26px;
+    text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 1px;
-    -webkit-box-shadow: 0 0 6px rgb(0 0 0 / 30%);
-    box-shadow: 0 0 6px rgb(0 0 0 / 30%);
-    -webkit-transition: padding 0.2s linear, box-shadow 0.2s linear, background 0.2s linear;
-    -moz-transition: padding 0.2s linear, box-shadow 0.2s linear, background 0.2s linear;
-    -ms-transition: padding 0.2s linear, box-shadow 0.2s linear, background 0.2s linear;
-    -o-transition: padding 0.2s linear, box-shadow 0.2s linear, background 0.2s linear;
-    -webkit-transition: padding 0.2s linear, background 0.2s linear, -webkit-box-shadow 0.2s linear;
-    transition: padding 0.2s linear, background 0.2s linear, -webkit-box-shadow 0.2s linear;
-    transition: padding 0.2s linear, box-shadow 0.2s linear, background 0.2s linear;
-    transition: padding 0.2s linear, box-shadow 0.2s linear, background 0.2s linear, -webkit-box-shadow 0.2s linear;
 }
 
 /* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES */
@@ -378,7 +459,7 @@ table {
         cursor: pointer;
     }
     .header .logo img {
-        height: 8vh;
+        height: 1vh;
         transition: all 0.3s;
     }
     .header .logo img:hover {
@@ -490,7 +571,9 @@ table {
 
 
 }
-
+@media only screen and (max-width: 1050px) {
+    
+}
 
 /* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES */
 
@@ -514,11 +597,4 @@ table {
     margin: 40px;
     text-align: center;
 }
-
-.main-registro h1{
-    
-}
 /* Registro*//* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/
-
-
-
