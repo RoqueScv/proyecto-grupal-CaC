@@ -493,3 +493,32 @@ table {
 
 
 /* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES */
+
+/* Registro*/ /* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/
+
+
+
+.main-registro{
+     background-color: rgb(255, 218, 138);
+
+}
+.formulario-registro{
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 90%;
+
+}
+
+.formulario-registro form div{
+    font-style: italic;
+    margin: 40px;
+    text-align: center;
+}
+
+.main-registro h1{
+    
+}
+/* Registro*//* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/
+
+
+
