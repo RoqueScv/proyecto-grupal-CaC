@@ -596,5 +596,21 @@ table {
     font-style: italic;
     margin: 40px;
     text-align: center;
+    size: 10px;
+    border-color:red  solid 1px  ;
+
 }
+
+.formulario-registro div{
+    align-items: center;
+
+    
+    
+
+    
+}
+         
+            
+
+
 /* Registro*//* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/

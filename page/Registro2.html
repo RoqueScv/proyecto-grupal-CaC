@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrarme</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="app-registro.js"></script>
 </head>
 <body>
     <header class="header">
@@ -25,38 +26,41 @@
         </div>
     </header>
      <main class="main-registro">
-        <h1 class="titulo-principal">Para registrarte c</h1>
+        <h1 class="titulo-principal">Registrate aqui</h1>
         <div class="formulario-registro"> 
             <form action="" method="post" target="_blank">
                 <div>
                     <label for="nombre">Nombre</label>                
-                    <input type="text">
+                    <input size="35" type="text" placeholder="Ingresa tu nombre">
                 </div>
 
                 <div>
                     <label for="apellido">Apellido</label>                
-                    <input type="text">
+                    <input size="35" type="text" placeholder="Ingresa tu apellido">
                 </div>
 
                 <div>
                     <label for="email">E-mail</label>                
-                    <input type="text">
+                    <input size="35" maxlength="30" type="email" placeholder=" ingresa su email">
                 </div>
 
                 <div>
-                    <label for="clave">Contraseña</label>                
-                    <input type="text">
+                    <label for="clave">Contraseña</label>                                                    
+                    <input size="35" type="password" maxlength="16" placeholder="Ingresa su Contraseña">
                 </div>
+
                 <div>
-                    <label for="localidad">Localidad</label>                
-                    <input type="text">
+                    <label for="localidad">Localidad</label> 
+                    <!-- <input size="35" type="text" placeholder="Selecciona tu localidad">  -->
+                    <select name="Barrios">
+                        <option>Almagro</option>
+                        <option>Balvanera</option>
+                        <option>Caballito</option>
+                        <option>San Telmo</option>
+                        <option>Recoleta</option>                    
+                        </select>      
                 </div>
-                <div>
-                    <label for="direccion">Calle</label>                
-                    <input type="text">
-                </div>
-                <div>
-                                   
+                <div>                                   
                     <input type="submit" value="Registrarme">
                     <input type="reset" value="Borrar">
                 </div>
