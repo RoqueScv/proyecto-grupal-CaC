@@ -27,77 +27,50 @@
     </header>
      <main class="main-registro">
         <h1 class="titulo-principal">Registrate aqui</h1>
-        <div class="formulario-registro"> 
-            <form action="" method="post" target="_blank">
-            <table>
-                <tr> <td>
-                <div>
-                    <label for="nombre">Nombre</label>                
-                    <input size="35" type="text" placeholder="Ingresa tu nombre">
-                </div>
+                 
+            
+             
 
-                <div>
-                    <label for="apellido">Apellido</label>                
-                    <input size="35" type="text" placeholder="Ingresa tu apellido">
-                </div>
-
-                <div>
-                    <label for="email">E-mail</label>                
-                    <input size="35" maxlength="30" type="email" placeholder=" ingresa su email">
-                </div>
-
-                <div>
-                    <label for="clave">Contraseña</label>                                                    
-                    <input size="35" type="password" maxlength="16" placeholder="Ingresa su Contraseña">
-                </div>
-
-                <div>
-                    <label for="localidad">Localidad</label> 
-                    <!-- <input size="35" type="text" placeholder="Selecciona tu localidad">  -->
-                    <select name="Barrios">
-                        <option>Almagro</option>
-                        <option>Balvanera</option>
-                        <option>Caballito</option>
-                        <option>San Telmo</option>
-                        <option>Recoleta</option>                    
-                        </select>      
+                <div class="formulario">
+                    <form id="contact_form" action="#" method="POST"  enctype="multipart/form-data" >
+                        <div class="form-item">
+                            <label class="required" for="name">Nombre:</label>
+                            <input id="name" class="input" name="name" type="text" value="" size="30"placeholder=" ej: Zoe"/> 
+                        </div>
+                        <div class="form-item">
+                            <label class="required" for="apellido">Apellido:</label>
+                            <input id="apellido" class="input" name="apellido" type="text" value="" size="30" placeholder="ej: Perez"/>
+                        </div>
+                        <div class="form-item">
+                            <label class="required" for="email">E-mail:</label>
+                            <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="ej: p@gmail.com"/>
+                        </div>
+                                                              
+                        <div class="form-item">
+                            <label for="clave">Contraseña</label>                                                    
+                            <input id="password"  class="input" type="password" value=""  size="30"  placeholder="Ingresa su Contraseña">
+                        </div>            
+               
+                        <div class="form-item">
+                            <label for="localidad">Localidad</label> 
+                  
+                            <select name="Barrios">
+                                <option>Almagro</option>
+                                <option>Balvanera</option>
+                                <option>Caballito</option>
+                                <option>San Telmo</option>
+                                <option>Recoleta</option>                    
+                            </select>      
                 </div>
                 <div>                                   
                     <input type="submit" value="Registrarme">
                     <input type="reset" value="Borrar">
                 </div>
-                </table>
-            </tr></td>
+            
 
-            main class="main-validacion">
-            <h1 class="titulo-principal">Ingresa</h1>
-            <div class="formulario-registro"> 
-                <form action="" method="post" target="_blank">
-                <title>Validación de Formularios</title>
-                <script type="text/javascript">
-                  // la Validación del Formulario irá aquí
-                </script>
-              </head>
-              <body>
-                <form id="formulario">
-                  <table cellspacing="2" cellpadding="2" border="1">
-                    <tr>
-                      <td align="right">Nombre de Usuario</td>
-                      <td><input type="text" id="usuario" /></td>
-                    </tr>
-                    <tr>
-                      <td align="right">Email</td>
-                      <td><input type="text" id="email" /></td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td><input type="submit" value="Submit" id="btn-enviar" /></td>
-                    </tr>
-                  </table>
-                </form>
-                
-
-
+      
+            
+            
 
 
 
