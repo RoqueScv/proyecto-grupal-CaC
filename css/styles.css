@@ -422,7 +422,7 @@ table {
     .titulo-principal{
         font-size: 1.5em;
     }
-    .formulario-contacto {
+    .formulario {
         grid-row-end: 2;
         grid-row-start: 3;
         grid-column-start: 1;
@@ -589,7 +589,7 @@ table {
 
 
 
-.main-registro{
+/* .main-registro{
      background-color: rgb(255, 218, 138);
 
 }
@@ -610,15 +610,17 @@ table {
 }
 
 .formulario-registro div{
-    align-items: center;
+    align-items: center; */
 
     
     
 
     
-}
+/* } */
          
             
 
 
 /* Registro*//* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/
+
+
