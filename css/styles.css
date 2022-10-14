@@ -17,6 +17,14 @@
     font-size: 4vw;
     margin-top: 2vh;
 }
+#mensaje{
+    width: 30%;
+    /* float: left;  */
+    background-color: bisque;
+    color: mediumorchid;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem .5 darkblue;
+}
 /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/
 
 
