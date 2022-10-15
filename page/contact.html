@@ -26,7 +26,7 @@
                 </div>
               </nav>
         </header>
-        <main class="main-contact">
+        <main class="main-contacto">
             <div class="h1-contacto">
                 <h1 class="titulo-principal">Dejanos tu consulta</h1>
             </div>
@@ -36,68 +36,77 @@
                 <!-- <img src="/img/Iconos/ubicacion.ico"  width="60" alt=""> 
                 <p>Estamos en <span>Almagro</span></p>-->
             </div>
-            <div class="formulario">
+            <div class="formulario-contacto">
                 <form id="contact_form" action="destino.html" method=""  enctype="multipart/form-data" onsubmit="return validacion();" >
                     <div class="form-item">
-                        <label class="required" for="name">Nombre:</label>
-                        <input id="name" class="input" name="name" type="text" value="" size="30"placeholder="Zoe Perez"/><label id="mensaje"></label> 
+                        <label class="required" for="nombre">Nombre:</label>
+                        <input id="nombre" class="input" name="nombre" type="text" value="" size="30"placeholder="Zoe Perez"/><label id="mensaje-nombre"></label> 
                     </div>
                     <div class="form-item">
-                        <label class="required" for="phone">Telefono:</label>
-                        <input id="phone" class="input" name="phone" type="text" value="" size="30" placeholder="11 6150-2976"/><label id="mensaje-phone"></label>
+                        <label class="required" for="telefono">Telefono:</label>
+                        <input id="telefono" class="input" name="telefono" type="text" value="" size="30" placeholder="11 6150-2976"/><label id="mensaje-telefono"></label>
                     </div>
-                     <!--
                     <div class="form-item">
                         <label class="required" for="email">E-mail:</label>
-                        <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="ej: p@gmail.com"/>
+                        <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="ej: p@gmail.com"/><label id="mensaje-email"></label>
                     </div>
                     <div class="form-item">
                         <label class="required" for="issue">Asunto:</label>
-                        <input id="issue" class="input" name="issue" type="text" value="" size="30" />
+                        <input id="asunto" class="input" name="issue" type="text" value="" size="30" /><label id="mensaje-asunto"></label>
                     </div>
                     <div class="form-item">
                         <label class="required" for="message">Mensaje:</label>
-                        <textarea id="message" class="input textarea" name="message" rows="7" cols="40"></textarea>
-                    </div> -->
+                        <textarea id="mensaje" class="input textarea" name="message" rows="7" cols="40"></textarea><label id="mensaje-mensaje"></label>
+                    </div>
                     <input id="submit_button" type="submit" value="Enviar" />
                     <input type="reset" value="Borrar">
                 </form>
                 <script>
                     function validacion() 
                         {
-                            valor = document.getElementById("name").value;
-                            if( valor == null || valor.length < 3) {
-                                document.getElementById('mensaje').innerHTML = "Tenes que completar el Nombre!";
-                                elemento = document.getElementById('name');
+                            valornombre = document.getElementById("nombre").value;
+                            valortelefono = document.getElementById("telefono").value;
+                            valoremail = document.getElementById("email").value;
+                            valorasunto = document.getElementById("asunto").value;
+                            valormensaje = document.getElementById("mensaje").value;
+
+                            if(valornombre == null || valor.length < 3) {
+                                document.getElementById('mensaje-nombre').innerHTML = "Tenes que completar el Nombre!";
+                                elemento = document.getElementById('nombre');
                                 elemento.focus();
                                 return false;
                             }   
-                            else 
-                                {
-                                valor1 = document.getElementById("phone").value;
-                                if (isNaN(valor1) || valor1.length > 12 || valor1.length < 8 ) {
-                                document.getElementById('mensaje-phone').innerHTML = "El telefono debe ser un numero de menos de 12 cifras!";
-                                elemento = document.getElementById('name');
+                            if(isNaN(valortelefono) || valortelefono.length > 12 || valortelefono.length < 8 ) {
+                                document.getElementById('mensaje-telefono').innerHTML = "El telefono debe ser un numero de 8-12 cifras!";
+                                elemento = document.getElementById('telefono');
                                 elemento.focus();
                                 
                                 return false;
-                            }}   
+                            }
+                            if(!(/^\w+([\.-]?\w+)*@(?:|hotmail|outlook|yahoo|live|gmail)\.(?:|com|ar)+$/.test(valoremail))) {
+                                document.getElementById('mensaje-email').innerHTML = "No es una direccion de email correcta" ;
+                                        
+                                elemento = document.getElementById('email');
+                                elemento.value = '';
+                                elemento.focus();
+                                    
+                                return false;
+                            }
+                            if(valorasunto == null || valorasunto.length < 3) {
+                                document.getElementById('mensaje-asunto').innerHTML = "Tenes que completar el Asunto!";
+                                elemento = document.getElementById('asunto');
+                                elemento.focus();
+
+                                return false;
+                            }
+                            if(valormensaje == null || valormensaje.length < 3) {
+                                document.getElementById('mensaje-mensaje').innerHTML = "Tenes que completar el Mensaje!";
+                                elemento = document.getElementById('mensaje');
+                                elemento.focus();
+
+                                return false;
+                            }      
                         return true;
-                            /* else    
-                            {
-                                if(this.value.length > 12) 
-                                {
-                                    document.getElementById('mensaje-phone').innerHTML = "El telefono no debe tener mas de 12 digitos ";
-                                    limpiar();
-                                    return false;
-                                }
-                            } */
-                        }
-                    function limpiar()
-                        {
-                            elemento = document.getElementById('edad');
-                            elemento.value = '';
-                            elemento.focus();
                         }
                 </script>
             </div>

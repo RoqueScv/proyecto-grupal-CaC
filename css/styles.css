@@ -192,7 +192,7 @@
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
 
 /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/
-.main-contact {
+.main-contacto {
     background-color: rgb(255, 218, 138);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -408,7 +408,7 @@ table {
 
 /* ESTILOS PÁGINA DE CONTACTO*/
 @media only screen and (max-width: 450px)  {
-    .main-contact {
+    .main-contacto {
         background-color: rgb(255, 218, 138);
         display: grid;
         grid-template-rows: 1fr 4fr 4fr 1fr;
@@ -422,7 +422,7 @@ table {
     .titulo-principal{
         font-size: 1.5em;
     }
-    .formulario {
+    .formulario-contacto {
         grid-row-end: 2;
         grid-row-start: 3;
         grid-column-start: 1;
@@ -446,7 +446,7 @@ table {
     .header {
         width: 100%;
     }
-    .main-contact {
+    .main-contacto {
         width: 100%
     }
 
