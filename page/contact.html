@@ -6,8 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/css/styles.css">
         <title>Contacto</title>
-        <script src="/js/navbar.js"></script>
-        
+        <script src="/js/navbar.js"></script>        
     </head>
     <body>
         <header class="header">
@@ -38,17 +37,16 @@
                 <p>Estamos en <span>Almagro</span></p>-->
             </div>
             <div class="formulario">
-                <form id="contact_form" action="/page/destino.html" method="POST"  enctype="multipart/form-data" onsubmit="return validacion();" >
+                <form id="contact_form" action="destino.html" method=""  enctype="multipart/form-data" onsubmit="return validacion();" >
                     <div class="form-item">
                         <label class="required" for="name">Nombre:</label>
                         <input id="name" class="input" name="name" type="text" value="" size="30"placeholder=" ej: Zoe Perez"/><label id="mensaje"></label> 
                     </div>
-                    
                     <div class="form-item">
                         <label class="required" for="phone">Telefono:</label>
-                        <input id="phone" class="input" name="phone" type="text" value="" size="30" placeholder="ej: 11 6150-2976"/>
+                        <input id="phone" class="input" name="phone" type="text" value="" size="30" placeholder="ej: 11 6150-2976"/><label id="mensaje-phone"></label>
                     </div>
-                    <script src="/js/formulario.js"></script>
+                     <!--
                     <div class="form-item">
                         <label class="required" for="email">E-mail:</label>
                         <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="ej: p@gmail.com"/>
@@ -60,10 +58,46 @@
                     <div class="form-item">
                         <label class="required" for="message">Mensaje:</label>
                         <textarea id="message" class="input textarea" name="message" rows="7" cols="40"></textarea>
-                    </div>
+                    </div> -->
                     <input id="submit_button" type="submit" value="Enviar" />
                     <input type="reset" value="Borrar">
                 </form>
+                <script>
+                    function validacion() 
+                        {
+                            valor = document.getElementById("name").value;
+                            if( valor == null || valor.length < 3) {
+                                document.getElementById('mensaje').innerHTML = "Tenes que completar el Nombre!";
+                                elemento = document.getElementById('name');
+                                elemento.focus();
+                                return false;
+                            }   
+                            else 
+                                {
+                                valor = document.getElementById("phone").value;
+                                if (isNaN(valor) || valor.length > 12) {
+                                document.getElementById('mensaje-phone').innerHTML = "El telefono debe ser un numero de menos de 12 cifras!";
+                                limpiar();
+                                return false;
+                            }}   
+                        return true;
+                            /* else    
+                            {
+                                if(this.value.length > 12) 
+                                {
+                                    document.getElementById('mensaje-phone').innerHTML = "El telefono no debe tener mas de 12 digitos ";
+                                    limpiar();
+                                    return false;
+                                }
+                            } */
+                        }
+                    function limpiar()
+                        {
+                            elemento = document.getElementById('edad');
+                            elemento.value = '';
+                            elemento.focus();
+                        }
+                </script>
             </div>
             <a href="https://wa.me/5491161502976" target="_blank" class="ico-whatsapp"><img src="/img/Iconos/Whatsapp.ico" width="60" alt=""><span>¡Estamos Online!</span></a>
         </main>

@@ -4,291 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingresar/Registrarme</title>
+    <title>Registrarme</title>
     <link rel="stylesheet" href="/css/styles.css">
-    
+    <script src="app-registro.js"></script>
 </head>
-<header class="header">
-    <div class="logo">
-        <img src="/img/1.png" width="auto" alt="logo de vinilos">
-    </div>
-    <nav>
-        <ul class="nav-links">
-            <li><a href="/index.html">Inicio</a></li>
-            <li><a href="/page/aboutus.html">Acerca de Nosotros</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-    </nav>
-    <div class="buttons">
-        <a href="/page/register.html" class="btn"><button>Registrarse</button></a>
-        <a href="/page/login.html" class="btn"><button>Iniciar Sesión</button></a>
-    </div>
-</header>
 <body>
-    <main class="main">
-        <div class="container"> 
-            <div class="row general">
-                <div class="col-md-12">
-                    <div class="row blocks">
-                        <div class="col-sm-6">
-                            <div class="block block-ingresar"></div>
-                            <div class="col-ms-6"></div> 
-
-                            
-                            <div class="block block-registrate"></div> <BR></BR>
-                            <p class="lead">Primera vez</p>
-                            <h2>Registrate</h2> 
-
-
-            <form class="form-horizontal" action="/registro/" method="post" role="form" id="form-login"></form>
-        </div> 
-
-        <form action="link" method="post">
-            <fieldset>
-            
-                <div class="email">
-                    <label for="email"></label>
-                    <input type="text" name="email" id="email" placeholder="E-mail">
-                </div> 
-              <div>
-                    <label for="password"></label>
-                    <input type="text" name="password" id="password" placeholder="Clave">
-            </div> 
-            <div class="button">
-                <input type="submit" value="Continuar"> </div> </form> </fieldset><br> <br> 
-             
-                                                    
-          <!-- <form class="ajax form-horizontal" action="/helpers/FormLogin.php" method="post" role="form" id="form-login" data-redirect="/usuario/pedidos"></form> -->
-                   
-                     <div class="container-formulario"> 
-                        <p class="lead">¿Ya sos usuario?</p>
-                    <h4>Ingresar</h4>
-
-                        <form action="link" method="post">
-                            <fieldset>
-                            
-                                <div class="email">
-                                    <label for="email"></label>
-                                    <input type="text" name="email" id="email" placeholder="E-mail">
-                                </div> 
-                              <div>
-                                    <label for="password"></label>
-                                    <input type="text" name="password" id="password" placeholder="Contraseña">
-                            </div> 
-
-                            <div class="button">
-                                <input type="submit" value="Ingresar">                    
-                            
-                            </div>  
-                        </form>  </fieldset><br><br>
-                    
-                    <!-- </div>
-                    </div>
-                </div>
-            
-            </div>
+    <header class="header">
+        <div class="logo">
+            <img src="/img/1.png" width="auto" alt="logo de vinilos">
         </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="/page/aboutus.html">Acerca de Nosotros</a></li>
+                <li><a href="/page/contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="buttons">
+            <a href="/page/register.html" class="btn"><button>Registrarse</button></a>
+            <a href="/page/login.html" class="btn"><button>Iniciar Sesión</button></a>
         </div>
-    </div>
-                            
-                            </div>  
-                        </form>
-                    
-                    </div>
-                    </div>
-                </div>
-            
-            </div>
-        </div>
-        </div>
-    </div> -->
-    </main>             
-          
-
-
-       
-
- <!-- <div>
-                <label for="repetir-password">Olvido su Contraseña</label>
-
-
-
-                    <!-- <div class="nombre">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre aqui">
-                </div>
-                <div class="apellido">
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" name="apellido" id="apellido" placeholder="Escriba su apellido aqui">
-                </div> -->
-                <!-- <input type="text" name="repetir-password" 
-                id="repetir-password" placeholder="Repita su password aqui"></div> -->
-        
-
-            <!-- <div class="consulta"> -->
-                 
-                      <!-- <label for="consulta">Dejanos tu consulta:</label>
-                     <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea> 
-                 </div>
-                 <div class="button">
-                     <input type="submit" value="Enviar">
-                     <input type="reset" value="Borrar">
-                 </div> --> 
-
-
-            
-           
-                 <div class="container-formulario">  
-
-     <div class="formulario-contacto">
+    </header>
+    <main class="main-registro">
+        <h1 class="titulo-principal">Registrate aqui</h1>
+        <div class="formulario">
             <form id="contact_form" action="#" method="POST"  enctype="multipart/form-data" >
-                <div class="form-item"> </div> 
-
-<h1>Completa tus datos</h1>
-                    
-                    <div>
-                    <label for="email"></label>
-                    <input type="text" name="email" id="email" placeholder="E-mail">
-                </div> 
-                <div>
-                    <label for="password"></label>
-                    <input type="text" name="password" id="password" placeholder="Contraseña"></div>
-
-
-                    
-                    <div>
-                    <label for=" Confirma email"></label>
-                    <input type="text" name=" Confirma email" id="Confirma email" placeholder="Confirma E-mail">
-                </div> 
-                <div>
-                    <label for="password"></label>
-                    <input type="text" name="password" id="password" placeholder=" Confirma Contraseña"></div>
-
-
-
-                    <div class="email">
-                        <label for="email"></label>
-                        <input type="text" name="email" id="email" placeholder="E-mail">
-                    </div> 
-                    <div>
-                        <label for="password"></label>
-                        <input type="text" name="password" id="password" placeholder="Contraseña">
-
-
-                        <div class="email">
-                            <label for="email"></label>
-                            <input type="text" name="email" id="email" placeholder=" Confirma email">
-                        </div> 
-                        <div>
-                            <label for="password"></label>
-                            <input type="text" name="password" id="password" placeholder=" Confirma Contraseña">
-                    </div> 
-                   
-
-
-
-
-
-                </div> 
-                <div class="button">
-                    <input type="submit" value="Registrarme">
-
-
-
-
-
-
-
-
-
-
-                        <label class="required" for="email">0</label>
+                <div class="form-item">
+                    <label class="required" for="name">Nombre:</label>
+                    <input id="name" class="input" name="name" type="text" value="" size="30"placeholder=" ej: Zoe"/> 
+                </div>
+                <div class="form-item">
+                    <label class="required" for="apellido">Apellido:</label>
+                    <input id="apellido" class="input" name="apellido" type="text" value="" size="30" placeholder="ej: Perez"/>
+                </div>
+                <div class="form-item">
+                    <label class="required" for="email">E-mail:</label>
                     <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="ej: p@gmail.com"/>
                 </div>
                 <div class="form-item">
-                    <label class="required" for="Confirmar email">Confirmar Email</label>
-                    <input id=" Confirmar email" class="input" name=" c email" type="text" value="" size="30" placeholder="ej: p@gmail.com"/>
+                    <label for="clave">Contraseña</label>                                                    
+                    <input id="password"  class="input" type="password" value=""  size="30"  placeholder="Ingresa su Contraseña">
+                </div>            
+                <div class="form-item">
+                    <label for="localidad">Localidad</label>
+                    <select name="Barrios">
+                        <option>Almagro</option>
+                        <option>Balvanera</option>
+                        <option>Caballito</option>
+                        <option>San Telmo</option>
+                        <option>Recoleta</option>                    
+                    </select>      
                 </div>
-
-                <div class="form-item">
-                    <label class="required" for="name">Clave</label>
-                    <input id="name" class="input" name="name" type="text" value="" size="8"placeholder=""/> 
+                <div>                                   
+                    <input type="submit" value="Registrarme">
+                    <input type="reset" value="Borrar">
                 </div>
-                <div class="form-item">
-                    <label class="required" for="password">Confirme clave</label>
-                    <input id="password" class="input" name="password" type="text" value="" size="8"placeholder=""/> 
-                </div>
-
-                <div class="form-item">
-                    <label class="required" for="name">Nombre</label>
-                    <input id="name" class="input" name="name" type="text" value="" size="30"placeholder=""/> 
-                </div>
-                <div class="form-item">
-                    <label class="required" for="surname">Apellido</label>
-                    <input id="surname" class="input" name="surname" type="text" value="" size="30"placeholder=""/> 
-                </div>
-
-
-                <div class="form-item">
-                    <label class="required" for="name">Dirección</label>
-                    <input id="name" class="input" name="name" type="text" value="" size="30"placeholder="calle"/> 
-                </div>
-
-
-                <div class="form-item">
-                    <label class="required" for="name">Localidad</label>
-                    <input id="name" class="input" name="name" type="text" value="" size="30"placeholder="calle"/> 
-                </div>  
-
-
-                <div class="form-item">
-                    <label class="required" for="name">Provincia/zona</label>
-                    <input id="name" class="input" name="name" type="text" value="" size="30"placeholder=""/> 
-                </div>
-                <div class="form-item">
-                    <label class="required" for="name">Código Postal</label>
-                    <input id="name" class="input" name="name" type="text" value="" size="30"placeholder=""/> 
-                </div>
-                <div class="form-item">
-                    <label class="required" for="name">Apellido</label>
-                    <input id="name" class="input" name="name" type="text" value="" size="30"placeholder=""/> 
-                </div>
-
-
-
-                <div class="form-item">
-                    <label class="required" for="phone">Telefono</label>
-                    <input id="phone" class="input" name="phone" type="text" value="" size="30" placeholder="ej: 11 6150-2976"/>
-                </div>
-                
-
-                <div class="form-item">
-                    
-                    
-                <!-- <div class="form-item">
-                    <label class="required" for="message">Mensaje:</label>
-                    <textarea id="message" class="input textarea" name="message" rows="7" cols="40"></textarea>
-                </div> -->
-                <input id="submit_button" type="submit" value="Registrarme" />
-                <input type="reset" value="Borrar">
             </form>
         </div>
-
-
-
-    </fieldset>
-       
-<!-- </div> 
-</div> -->
+    </main>
+    <footer class="footer">
+        <div class="redes">
+            <h2>Seguinos en nuestras redes sociales</h2>
+            <ul>
+                <li><a href="https://Whatsapp.com" target="_blank"> <img src="/img/Iconos/Whatsapp.ico" width="25" alt=""> +54 9 11 6150-2976</a></li>
+                <li><a href="https://Twitter.com" target="_blank"><img src="/img/Iconos/Twitter.ico" width="25" alt="">/soliniVinilos</a></li>
+                <li><a href="https://Instagram.com" target="_blank"><img src="/img/Iconos/Instragram.ico" width="25" alt="">/soliniVinilos</a></li>
+                <li><a href="https://Facebook.com" target="_blank"><img src="/img/Iconos/Face.ico"  width="25" alt="" >/soliniVinilos</a></li>
+                <li><p>soliniVinilos@gmail.com</p></li>
+                <li><b>/+54 9 11 6150-2976</b></li>
+            </ul>
+        </div>
+        <p>Todos los derechos reservados por soliniVinilos © 2022</p><a href="https://www.buenosaires.gob.ar/defensaconsumidor">Defensa al consumidor</a>
+    </footer>
 </body>
 </html>
-        <footer class="footer">
-            <div class="redes">
-                <ul>
-                    <li><p><a href="https://Whatsapp.com" target="_blank"> <img src="/img/Iconos/Whatsapp.ico" width="25" alt=""> +54 9 11 6150-2976</a></p></li>
-                    <li><p><a href="#"><img src="/img/Iconos/gmail.ico" alt="" width="25"></a> soliniVinilos@gmail.com</p></li>
-                    <li><p><a href="https://Twitter.com" target="_blank"><img src="/img/Iconos/Twitter.ico" width="25" alt=""></a><a href="https://Instagram.com" target="_blank"><img src="/img/Iconos/Instragram.ico" width="25" alt=""></a><a href="https://Facebook.com" target="_blank"><img src="/img/Iconos/Face.ico"  width="25" alt="" >/soliniVinilos</a> </p></li>
-                </ul>
-            </div>
-            <p>Todos los derechos reservados por soliniVinilos © 2022</p><a href="https://www.buenosaires.gob.ar/defensaconsumidor">Defensa al consumidor</a>
-        </footer>

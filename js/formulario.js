@@ -4,15 +4,15 @@ function validacion()
 	
 	if( isNaN(valor) ) 
 	{
-		document.getElementById('mensaje').innerHTML = "La edad debe ser un numero!";
+		document.getElementById('mensaje').innerHTML = "El telefono debe ser un numero!";
 		limpiar();
 		return false;
 	}
 	else    
 	{
-		if( valor < 0 || valor > 130 ) 
+		if(this.value.length > 12) 
 		{
-			document.getElementById('mensaje').innerHTML = "La edad debe estar entre 0 y 130 años!";
+			document.getElementById('mensaje-phone').innerHTML = "El telefono no debe tener mas de 12 digitos ";
 			limpiar();
 			return false;
 		}
