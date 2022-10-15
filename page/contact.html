@@ -40,11 +40,11 @@
                 <form id="contact_form" action="destino.html" method=""  enctype="multipart/form-data" onsubmit="return validacion();" >
                     <div class="form-item">
                         <label class="required" for="name">Nombre:</label>
-                        <input id="name" class="input" name="name" type="text" value="" size="30"placeholder=" ej: Zoe Perez"/><label id="mensaje"></label> 
+                        <input id="name" class="input" name="name" type="text" value="" size="30"placeholder="Zoe Perez"/><label id="mensaje"></label> 
                     </div>
                     <div class="form-item">
                         <label class="required" for="phone">Telefono:</label>
-                        <input id="phone" class="input" name="phone" type="text" value="" size="30" placeholder="ej: 11 6150-2976"/><label id="mensaje-phone"></label>
+                        <input id="phone" class="input" name="phone" type="text" value="" size="30" placeholder="11 6150-2976"/><label id="mensaje-phone"></label>
                     </div>
                      <!--
                     <div class="form-item">
@@ -74,10 +74,12 @@
                             }   
                             else 
                                 {
-                                valor = document.getElementById("phone").value;
-                                if (isNaN(valor) || valor.length > 12) {
+                                valor1 = document.getElementById("phone").value;
+                                if (isNaN(valor1) || valor1.length > 12 || valor1.length < 8 ) {
                                 document.getElementById('mensaje-phone').innerHTML = "El telefono debe ser un numero de menos de 12 cifras!";
-                                limpiar();
+                                elemento = document.getElementById('name');
+                                elemento.focus();
+                                
                                 return false;
                             }}   
                         return true;
