@@ -17,11 +17,11 @@
     font-size: 4vw;
     margin-top: 2vh;
 }
-#mensaje{
-    width: 30%;
+.mensaje{
+    width: 100%;
     /* float: left;  */
     background-color: bisque;
-    color: mediumorchid;
+    color: rgb(205, 40, 40);
     border-radius: 0.5rem;
     box-shadow: 0.25rem 0.25rem .5 darkblue;
 }
@@ -589,10 +589,7 @@ table {
     }
 }
 /* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/
-@media only screen and (max-width: 1050px) {
 
-    
-}
 
 /* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES */
 
