@@ -156,38 +156,7 @@
     border-radius: 10px;
 }
 
-@media (max-width: 800px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
 
-    .toggle-button {
-        display: flex;
-    }
-
-    .navbar-links {
-        display: none;
-        width: 100%;
-    }
-
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links ul li {
-        text-align: center;
-    }
-
-    .navbar-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links.active {
-        display: flex;
-    }
-}
 
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
 
@@ -217,6 +186,10 @@
     width: 40vw;
     margin: 10px 30px 10px 30px;
 }
+.textarea {
+    
+    width: auto;
+}
 .form-item {
     display: flex;
     flex-direction: column;
@@ -234,10 +207,8 @@
     width: 100%;
     height: 100%;
 }
-.textarea {
-    resize: none;
-    width: 100%;
-}
+
+
 /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/
 
 /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/
@@ -408,6 +379,8 @@ table {
 
 
 /* ESTILOS PÁGINA DE CONTACTO*/
+
+
 @media only screen and (max-width: 450px)  {
     .main-contacto {
         background-color: rgb(255, 218, 138);
@@ -457,7 +430,7 @@ table {
 
 /* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
 
-    .header {
+   /*  .header {
         background-color: rgb(58, 40, 0);
         display: flex;
         justify-content: space-between;
@@ -513,7 +486,7 @@ table {
     }
     .buttons a {
         margin: 1vw;
-    }
+    } */
 
 
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/
@@ -580,7 +553,44 @@ table {
 
 
 }
+
+@media (max-width: 800px) {
+
+/* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+/* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/
 @media only screen and (max-width: 1050px) {
+
     
 }
 
