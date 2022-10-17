@@ -25,6 +25,9 @@
     border-radius: 0.5rem;
     box-shadow: 0.25rem 0.25rem .5 darkblue;
 }
+::placeholder {
+    font-size: 0.9em;
+  }
 /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/
 
 
@@ -104,7 +107,7 @@
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: rgb(58, 40, 0);
     color: white;
 }
 
@@ -156,6 +159,31 @@
     border-radius: 10px;
 }
 
+.header .btn button {
+    font-weight: 1em;
+    color: black;
+    padding: 1em 1em 2em 1em;
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    height: 1vh;
+}
+.header .btn button:hover {
+    color: rgb(249, 206, 67);
+    transform: scale(1.1);
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.buttons a {
+    margin: 1vw;
+}
 
 
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
@@ -330,7 +358,7 @@ table {
 .main-index{
     background-color: rgb(255, 218, 138);
     display: grid;
-    grid-template-rows: 0.7fr 5fr 10fr;
+    grid-template-rows: 7fr 30fr 5fr 65fr;
     border: burlywood solid 10px;
 }
 .main-aboutus {
@@ -370,6 +398,11 @@ table {
 .texto-center{
     display: flex;
     justify-content: center;
+}
+
+.texto-main{
+    text-align: center;
+    margin: 1vw;
 }
 
 /* ESTILOS DEL INDEX*/
@@ -501,7 +534,7 @@ table {
         padding: 0.4vw 0.6vw;
         display: grid;
         grid-template-columns: 55vw;
-        gap: 25px;
+        gap: 10px;
     }
     .main-vinilos div p, .container-main-vinilos div p a {
         background-color: rgb(185, 199, 199);
@@ -513,7 +546,7 @@ table {
     .main-index{
         background-color: rgb(255, 218, 138);
         display: grid;
-        grid-template-rows: 0.1fr 1fr 5fr;
+        grid-template-rows: 0.12fr 0.7fr 0.12fr 5fr;
     }
     .main-aboutus {
         background-color: rgb(255, 218, 138);
