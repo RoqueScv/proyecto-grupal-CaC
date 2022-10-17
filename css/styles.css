@@ -114,6 +114,7 @@
 .brand-title {
     font-size: 2.5rem;
     margin: .5rem;
+    color: white;
 }
 
 .navbar-links {
@@ -296,6 +297,7 @@ table {
 }
 
 .yt-a{
+    padding-top: 10vh;
     width: 100%;
     align-items: center;
     text-align: center;
@@ -312,7 +314,7 @@ table {
 .redireccion{
     text-align: center;
     margin: 1vw;
-    background-color: rgba(194, 214, 19, 0.737) 
+    background-color: rgba(214, 198, 19, 0.6) 
 }
 
 .redireccion a{
@@ -534,7 +536,7 @@ table {
         padding: 0.4vw 0.6vw;
         display: grid;
         grid-template-columns: 55vw;
-        gap: 10px;
+        gap: 30px;
     }
     .main-vinilos div p, .container-main-vinilos div p a {
         background-color: rgb(185, 199, 199);
