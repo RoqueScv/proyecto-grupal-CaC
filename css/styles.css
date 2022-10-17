@@ -355,7 +355,7 @@ table {
 .main-index{
     background-color: rgb(255, 218, 138);
     display: grid;
-    grid-template-rows: 0.7fr 5fr 10fr;
+    grid-template-rows: 7fr 30fr 5fr 65fr;
     border: burlywood solid 10px;
 }
 .main-aboutus {
