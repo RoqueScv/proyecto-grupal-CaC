@@ -25,6 +25,9 @@
     border-radius: 0.5rem;
     box-shadow: 0.25rem 0.25rem .5 darkblue;
 }
+::placeholder {
+    font-size: 0.9em;
+  }
 /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/
 
 
