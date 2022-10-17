@@ -104,12 +104,12 @@
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: rgb(58, 40, 0);
     color: white;
 }
 
 .brand-title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     margin: .5rem;
 }
 
@@ -156,6 +156,31 @@
     border-radius: 10px;
 }
 
+.header .btn button {
+    font-weight: 1em;
+    color: black;
+    padding: 1em 1em 2em 1em;
+    background: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    height: 1vh;
+}
+.header .btn button:hover {
+    color: rgb(249, 206, 67);
+    transform: scale(1.1);
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.buttons a {
+    margin: 1vw;
+}
 
 
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
@@ -187,7 +212,7 @@
     margin: 10px 30px 10px 30px;
 }
 .textarea {
-    
+    resize: none;
     width: auto;
 }
 .form-item {
@@ -206,6 +231,24 @@
 .contact-iframe iframe {
     width: 100%;
     height: 100%;
+}
+.ico-whatsapp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2vw;
+    background: #25D366;
+    color: #fff;
+    border-radius: 50px;
+    line-height: 26px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
 
@@ -361,24 +404,7 @@ table {
 
 /* ESTILOS DEL INDEX*/
 
-.ico-whatsapp {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 1.2vw;
-    background: #25D366;
-    color: #fff;
-    border-radius: 50px;
-    line-height: 26px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 1px;
-}
+
 
 /* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES */
 
