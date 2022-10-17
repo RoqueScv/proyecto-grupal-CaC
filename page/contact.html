@@ -19,12 +19,16 @@
                 </a>
                 <div class="navbar-links">
                   <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">¿Quienes somos?</a></li>
+                    <li><a href="#">Contacto</a></li>
                   </ul>
                 </div>
-              </nav>
+                <div class="register-login">
+                <a href="/page/register.html">Registrarse</a>
+                <a href="/page/login.html">Iniciar Sesión</a>
+                </div>
+            </nav>
         </header>
         <main class="main-contacto">
             <div class="h1-contacto">
@@ -101,6 +105,7 @@
 
                                 return false;
                             }
+                            document.getElementById('mensaje-asunto').innerHTML = "";
                             if(valorMensaje == null || valorMensaje.length < 3) {
                                 document.getElementById('mensaje-mensaje').innerHTML = "Tenes que completar el Mensaje!";
                                 elemento = document.getElementById('message');
@@ -108,6 +113,7 @@
 
                                 return false;
                             }
+                            document.getElementById('mensaje-mensaje').innerHTML = "";
                         return true;
                         }
                 </script>
