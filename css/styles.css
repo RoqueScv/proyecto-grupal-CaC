@@ -406,8 +406,10 @@ table {
     margin: 1vw;
 }
 
-/* ESTILOS DEL INDEX*/
+/* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*/
 
+
+/* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */
 .main-destino{
     background-color: rgb(255, 218, 138);
     display: grid;
@@ -418,6 +420,48 @@ table {
 .titulo-destino{
     text-align: center;
     margin: 3%;
+}
+
+
+/* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */
+
+
+/* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */
+
+
+.main-registro {
+    background-color: rgb(255, 218, 138);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    border: burlywood solid 10px;
+
+}
+.formulario-registro {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-end: 3;
+    grid-row-start: 3;
+    width: 40vw;
+    margin: 10px 30px 10px 30px;
+}
+.titulo-registro {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-end: 1;
+    grid-row-start: 2;
+    text-align: center;
+}
+
+.main-login{
+    background-color: rgb(255, 218, 138);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    border: burlywood solid 10px;
 }
 
 

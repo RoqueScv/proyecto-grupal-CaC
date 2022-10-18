@@ -32,38 +32,58 @@
         </nav>
     </header>
     <main class="main-registro">
-        <h1 class="titulo-principal">Registrate aqui</h1>
-        <div class="formulario">
-            <form id="contact_form" action="#" method="POST"  enctype="multipart/form-data" >
+        <div class="titulo-registro">
+            <h1 class="titulo-principal">Registrate aqui</h1>
+        </div>
+        <div class="formulario-registro">
+            <form id="contact_form" action="" method=""  enctype="multipart/form-data" onsubmit="return validacion();" >
                 <div class="form-item">
                     <label class="required" for="name">Nombre:</label>
-                    <input id="name" class="input" name="name" type="text" value="" size="30"placeholder=" ej: Zoe"/> 
+                    <input id="name" class="input" name="name" type="text" value="" size="30"placeholder="Zoe"/> 
+                </div>
+                <div class="form-item">
+                    <label class="required" for="name">Nombre de Usuario</label>
+                    <input id="name" class="input" name="user-name" type="text" value="" size="15"placeholder=""/> 
                 </div>
                 <div class="form-item">
                     <label class="required" for="apellido">Apellido:</label>
-                    <input id="apellido" class="input" name="apellido" type="text" value="" size="30" placeholder="ej: Perez"/>
+                    <input id="apellido" class="input" name="apellido" type="text" value="" size="30" placeholder="Perez"/>
                 </div>
                 <div class="form-item">
                     <label class="required" for="email">E-mail:</label>
-                    <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="ej: p@gmail.com"/>
+                    <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="p@gmail.com"/>
                 </div>
                 <div class="form-item">
-                    <label for="clave">Contraseña</label>                                                    
-                    <input id="password"  class="input" type="password" value=""  size="30"  placeholder="Ingresa su Contraseña">
+                    <label class="required" for="contraseña">Contraseña</label>                                                    
+                    <input id="password"  class="input" type="password" value=""  size="30"  placeholder="">
                 </div>            
                 <div class="form-item">
+                    <label class="required" for="provincia">Provincia</label>
                     <select name="Provincia">
-                    <label for="localidad">Localidad</label>
-                    <option>Buenos Aires</option>
-                    <option>Ciudad Autónoma de Buenos Aires</option>
-                    <option>Córdoba</option>
-                    <option>Chaco</option>
-                    <option>Formosa</option>                         
-                    <option>La Pampa</option>
-                    <option>La Rioja</option>
-                    <option>Salta</option>
-                    <option>Tucumán</option>
-                    <option>Viedma</option>                   
+                            <option>Buenos Aires</option>
+                            <option>Ciudad Autónoma de Buenos Aires</option>
+                            <option>Catamarca</option>  
+                            <option>Chaco</option>
+                            <option>Chubut</option>
+                            <option>Córdoba</option>
+                            <option>Corrientes</option>
+                            <option>Entre Rios</option>
+                            <option>Formosa</option>   
+                            <option>Jujuy</option>                      
+                            <option>La Pampa</option>
+                            <option>La Rioja</option>
+                            <option>Mendoza</option>
+                            <option>Misiones</option>
+                            <option>Neuquén</option>
+                            <option>Rio Negro</option>
+                            <option>Salta</option>
+                            <option>San Juán</option>
+                            <option>San Luis</option>
+                            <option>Santa Cruz</option>
+                            <option>Santa Fe</option>
+                            <option>Santiago del Estero</option>
+                            <option>Tierra del Fuego</option>
+                            <option>Tucumán</option>
                     </select>      
                 </div>
                 <div>                                   

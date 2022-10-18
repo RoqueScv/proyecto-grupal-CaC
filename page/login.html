@@ -1,66 +1,68 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de Sesión</title>
-    <link rel="stylesheet" href="/css/styles.css">
-    <link rel="icon" href="/img/Iconos/nota-musical-icon.png">
-</head>
-<body>
-  <header class="header">
-    <nav class="navbar">
-        <div class="brand-title">Solini Vinilos</div>
-        <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-          <ul>
-            <li><a href="/index.html">Inicio</a></li>
-            <li><a href="/page/aboutus.html">¿Quienes somos?</a></li>
-            <li><a href="/page/contact.html">Contacto</a></li>
-          </ul>
-        </div>
-        <div class="buttons">
-        <a class="btn" href="/page/register.html"><button>Registrarse</button></a>
-        <a class="btn" href="/page/login.html"><button>Iniciar Sesion</button></a>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Registrate</title>
+      <link rel="stylesheet" href="/css/styles.css">
+      <link rel="icon" href="/img/Iconos/nota-musical-icon.png">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+          <div class="brand-title">Solini Vinilos</div>
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+          <div class="navbar-links">
+            <ul>
+              <li><a href="/index.html">Inicio</a></li>
+              <li><a href="/page/aboutus.html">¿Quienes somos?</a></li>
+              <li><a href="/page/contact.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="buttons">
+          <a class="btn" href="/page/register.html"><button>Registrarse</button></a>
+          <a class="btn" href="/page/login.html"><button>Iniciar Sesion</button></a>
         </div>
       </nav>
     </header>
-    <main>
-        <h1 class="titulo-principal">Ingresa</h1>
-            <div class="formulario-registro"> 
-                <form action="" method="post" target="_blank">
-               <h1>Validacion de formulario</h1>
-                <script type="text/javascript">
-                  // la Validación del Formulario irá aquí
-                </script>
-                <form id="formulario">
-                  <table cellspacing="2" cellpadding="2" border="1">
-                    <tr>
-                      <td align="right">Nombre de Usuario</td>
-                      <td><input type="text" id="usuario" /></td>
-                    </tr>
-                    <tr>
-                      <td align="right">Contraseña</td>
-                      <td><input type="text" id="email"/></td>
-                    </tr>
-                    <tr>
-                      <td></td>
-                      <td><input type="submit" value="Entrar" id="btn-enviar" /></td>
-                    </tr>
-                  </table>
-                </form> 
-            </div>
-                
-
-
+    <main class="main-login">
+        <div class="h1-contacto">
+            <h1 class="titulo-principal">¿Ya sos usuario?</h1>
+        </div>
+        <div class="texto-login">
+          <p> Para poder ser usuario de Solini Vinilos y comprar nuestros productos, es necesario estar registrado. Si no estás registrado <a href="/page/register.html">hacé click acá</a></p>
+        </div>
+        <div class="formulario-login">
+            <form id="contact_form" action="" method=""  enctype="multipart/form-data" onsubmit="return validacion();" >
+                <div class="form-item">
+                    <label class="required" for="name">Nombre de Usuario</label>
+                    <input id="name" class="input" name="user-name" type="text" value="" size="15"placeholder=""/> 
+                </div>
+                <div class="form-item">
+                    <label for="clave">Contraseña</label>                                                    
+                    <input id="password"  class="input" type="password" value=""  size="30"  placeholder="">
+                </div>   
+                <input id="submit_button" type="submit" value="Enviar" />
+                <input type="reset" value="Borrar">
+            </form>
+            <!-- <script src="/js/formulario.js"></script>-->
+        </div>
     </main>
+    <footer class="footer">
+      <div class="redes">
+          <ul>
+              <li><p><a href="https://Whatsapp.com" target="_blank"> <img src="/img/Iconos/Whatsapp.ico" width="25" alt=""> +54 9 11 6150-2976</a></p></li>
+              <li><p><a href="#"><img src="/img/Iconos/gmail.ico" alt="" width="25"></a> soliniVinilos@gmail.com</p></li>
+              <li><p><a href="https://Twitter.com" target="_blank"><img src="/img/Iconos/Twitter.ico" width="25" alt=""></a><a href="https://Instagram.com" target="_blank"><img src="/img/Iconos/Instragram.ico" width="25" alt=""></a><a href="https://Facebook.com" target="_blank"><img src="/img/Iconos/Face.ico"  width="25" alt="" >/soliniVinilos</a> </p></li>
+          </ul>
+      </div>
+        <p>Todos los derechos reservados por soliniVinilos © 2022</p><a href="https://www.buenosaires.gob.ar/defensaconsumidor">Defensa al consumidor</a>
+    </footer>
 
-
-    
-</body>
+  </body>
 </html>
