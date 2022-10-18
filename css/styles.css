@@ -26,7 +26,8 @@
     box-shadow: 0.25rem 0.25rem .5 darkblue;
 }
 ::placeholder {
-    font-size: 0.9em;
+    font-size: 0.7em;
+    
   }
 /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/
 
@@ -244,15 +245,17 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 1.2vw;
-    background: #25D366;
+    padding: 1.1vw;
+    background: #2dc464;
     color: #fff;
-    border-radius: 50px;
+    border-radius: 40px;
     line-height: 26px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+
 }
 
 
@@ -328,7 +331,8 @@ table {
     display: flex;
     text-align: center; 
     flex-direction: column;  
-}
+} 
+
 /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/
 
 
@@ -430,7 +434,6 @@ table {
     
     }
     .titulo-principal{
-        font-size: 1.5em;
     }
     .formulario-contacto {
         grid-row-end: 2;
@@ -633,7 +636,10 @@ table {
 
 
 
-/* .main-registro{
+
+
+
+.main-registro{
      background-color: rgb(255, 218, 138);
 
 }
@@ -654,17 +660,118 @@ table {
 }
 
 .formulario-registro div{
-    align-items: center; */
+    align-items: center; 
 
     
     
 
     
-/* } */
+}
          
             
 
 
 /* Registro*//* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/
+
+
+
+ 
+
+.formulario-registro form div{
+    
+    margin: 40px;
+    text-align: center;
+    size: 10px;
+   
+
+}
+ .h1-contacto2 {
+    grid-column-start: 1;
+    grid-column-end: 1 ;
+    grid-row-end: 1;
+    grid-row-start: 2;
+    text-align: center;
+    color: #25D366;
+    font-size: 24px;}
+    
+/* fjdfkhfklsdflSFJLfjLASFJsafj */
+    
+    
+    
+.main-contacto {
+    background-color: rgb(255, 218, 138);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    border: burlywood solid 10px;
+}
+.h1-contacto {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-end: 1;
+    grid-row-start: 2;
+    text-align: center;
+}
+.formulario-contacto2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-end: 2;
+    grid-row-start: 3;
+    width: 40vw;
+    margin: 10px 30px 10px 30px;
+    max-width: 600px;
+    margin-top: 50px;
+    margin-right: 550px;
+    
+
+ 
+}
+.contraseña {
+    resize: none;
+    width: auto;
+    
+}
+.form-item {
+    display: flex;
+    flex-direction: column;
+
+}
+    
+.formulario-contacto3{
+    margin-right: 500px;
+    margin-top: 100px;
+    
+  
+    ;
+    
+    
+    
+}
+
+.botones-registro{
+    display: flex;
+    
+}
+.botones-registro input{
+    margin: 1vw;
+    bottom: 10px
+    
+    
+  
+}
+.h1-contacto p a{
+   padding-bottom: 15px;
+   
+    
+
+}
+
+
+
+
+
 
 
