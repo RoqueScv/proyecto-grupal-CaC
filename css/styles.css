@@ -366,11 +366,10 @@ table {
 .main-aboutus {
     background-color: rgb(255, 218, 138);
     display: grid;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto;
 }
 .titulo-index{
     margin: 0.5vw auto;
-    grid-row-start: 1;
     text-align: center;
 }
 .main-index-img {
