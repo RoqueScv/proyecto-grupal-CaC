@@ -732,7 +732,7 @@ table {
 
  
 
-.formulario-registro form div{
+/* .formulario-registro form div{
     
     margin: 40px;
     text-align: center;
@@ -747,44 +747,40 @@ table {
     grid-row-start: 2;
     text-align: center;
     color: #25D366;
-    font-size: 24px;}
+    font-size: 24px;} */
+
+
+    /* formulario login   formulario login formulario login  */
+
     
-/* fjdfkhfklsdflSFJLfjLASFJsafj */
     
     
-    
-.main-contacto {
+.main-login {
     background-color: rgb(255, 218, 138);
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 5fr 1fr;
-    border: burlywood solid 10px;
-}
-.h1-contacto {
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-template-rows: 1fr 2fr;
+    border: burlywood solid 10px;}
+    
+.h1-login {
     grid-row-end: 1;
     grid-row-start: 2;
     text-align: center;
+    margin: 5vw;
 }
-.formulario-contacto2 {
+.formulario-login{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    grid-column-start: 2;
-    grid-column-end: 3;
     grid-row-end: 2;
     grid-row-start: 3;
     width: 40vw;
-    margin: 10px 30px 10px 30px;
+    margin:0vw 30vw ;
     max-width: 400px;
-    margin-top: 50px;
-    margin-right: 550px;
     
+           
 
  
-} */
-.contraseña {
+} .contraseña {
     resize: none;
     width: auto;
     
@@ -792,39 +788,24 @@ table {
 .form-item {
     display: flex;
     flex-direction: column;
-
 }
-    
-.formulario-contacto3{
-    margin-right: 500px;
-    margin-top: 100px;
-     
-     
-       
-    
-}
-
-.botones-registro{
+   
+ .botones-registro{
     display: flex;
     
 }
 .botones-registro input{
     margin: 1vw;
     bottom: 10px
-    
-    
-  
+ 
 }
 .h1-contacto p a{
-   padding-bottom: 15px;
-   
-    
+    padding-bottom: 15px;
 
 }
-
-
-
-
-
-
-
+.login-botones{
+    display: flex;
+    margin: 2vw 0;
+    justify-content: space-between;
+    
+}
