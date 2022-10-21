@@ -354,13 +354,6 @@ table {
     height: 100%;
 }
 
-.main-vinilos div p, .container-main-vinilos div p a {
-    background-color: rgb(185, 199, 199);
-}
-.main-vinilos div p  {
-    background-color:rgba(185, 199, 199, 0.5)
-}
-
 .main-index{
     background-color: rgb(255, 218, 138);
     display: grid;
@@ -826,8 +819,7 @@ table {
     /* grid-row-end: 1;
     grid-row-start: 2; */
     text-align: center;
-    margin: 5vw ; */
-    
+    margin: 5vw ; 
     
 }
 
@@ -877,7 +869,7 @@ table {
 }
 
 .h1-register p b{
-    padding-bottom: 5vw; */
+    padding-bottom: 5vw; 
     justify-content: space-between;
     
     }
