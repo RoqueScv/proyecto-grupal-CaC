@@ -897,7 +897,7 @@ table {
 .main-register {
     background-color: rgb(255, 218, 138);
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr 2f;
+    grid-template-rows: 1fr 2fr;
     border: burlywood solid 10px;
     
 }
@@ -918,8 +918,7 @@ table {
     /* grid-row-end: 2;
     grid-row-start: 3; */
     width: 50vw;
-    margin:0vw 32vw ;
-    max-width: 400px;
+    margin:0vw 25vw;
     
            
  
