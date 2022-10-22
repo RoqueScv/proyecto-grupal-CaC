@@ -826,7 +826,7 @@ table {
     /* grid-row-end: 1;
     grid-row-start: 2; */
     text-align: center;
-    margin: 5vw ; */
+    margin: 6vw ;
     
     
 }
@@ -835,6 +835,7 @@ table {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+   
     /* grid-row-end: 2;
     grid-row-start: 3; */
     width: 50vw;
@@ -877,7 +878,7 @@ table {
 }
 
 .h1-register p b{
-    padding-bottom: 5vw; */
+    padding-bottom: 5vw; 
     justify-content: space-between;
     
     }

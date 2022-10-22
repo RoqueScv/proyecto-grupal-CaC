@@ -3,7 +3,7 @@
     valorTelefono = document.getElementById("telefono").value;
     valorEmail = document.getElementById("email").value;
     valorContraseña = document.getElementById("Contraseña").value;
-    valorConfirma = document.getElementById("message").value;
+    valorConfirma = document.getElementById("confirma contraseña").value;
 
     if(valorNombre == null || valorNombre.length < 3) {
         document.getElementById('mensaje-nombre').innerHTML = "Tenes que completar el Nombre!";
