@@ -904,18 +904,11 @@ table {
 }
     
 
-.h1-register {
+/* .h1-register {
     /* grid-row-end: 1;
     grid-row-start: 2; */
-    text-align: center;
-
-   
-    
-=======
-    margin: 5vw ; 
-
-
-}
+    text-align: center; }
+ */
 
 .formulario-register{
     display: flex;
