@@ -13,10 +13,6 @@
     text-align: center;
     font-size: xx-large;
 }
-.titulo-principal{
-    font-size: 4vw;
-    margin-top: 2vh;
-}
 .mensaje{
     width: 100%;
     /* float: left;  */
@@ -345,20 +341,18 @@ table {
 	padding: 40px 60px;
 	display: grid;
     grid-template-columns: 23% 23% 23% 23%;
-    gap: 25px;
-    
+    gap: 25px;    
 }
+
+.titulo-principal{
+    font-size: 4vw;
+    margin-top: 2vh;
+}
+
 .main-vinilos img {
 
     width: 100%;
     height: 100%;
-}
-
-.main-vinilos div p, .container-main-vinilos div p a {
-    background-color: rgb(185, 199, 199);
-}
-.main-vinilos div p  {
-    background-color:rgba(185, 199, 199, 0.5)
 }
 
 .main-index{
@@ -477,6 +471,37 @@ table {
 
 
 @media only screen and (max-width: 450px)  {
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
     .main-contacto {
         background-color: rgb(255, 218, 138);
         display: grid;
@@ -487,8 +512,6 @@ table {
         grid-row-start: 2;
         text-align: center;
     
-    }
-    .titulo-principal{
     }
     .formulario-contacto {
         grid-row-end: 2;
@@ -596,17 +619,11 @@ table {
         grid-template-columns: 55vw;
         gap: 30px;
     }
-    .main-vinilos div p, .container-main-vinilos div p a {
-        background-color: rgb(185, 199, 199);
-    }
-    .main-vinilos div p  {
-        background-color:rgba(185, 199, 199, 0.5)
-    }
     
     .main-index{
         background-color: rgb(255, 218, 138);
         display: grid;
-        grid-template-rows: 0.12fr 0.7fr 0.12fr 5fr;
+        grid-template-rows: 0.10fr 0.55fr 0.10fr 4.8fr;
     }
     .main-aboutus {
         background-color: rgb(255, 218, 138);
@@ -616,6 +633,7 @@ table {
     .titulo-index{
         grid-row-start: 1;
         text-align: center;
+        font-size: x-large;
     }
     .main-index-img {
         width:fit-content;
@@ -643,12 +661,17 @@ table {
     .texto-center{
         display: flex;
         justify-content: center;
+
+    }
+    
+    .titulo-principal{
+        font-size: 10vw;
     }
 
 
 }
 
-@media (max-width: 800px) {
+@media only screen and (min-width:450px) and (max-width: 800px) {
 
 /* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/
     .navbar {
@@ -680,6 +703,64 @@ table {
 
     .navbar-links.active {
         display: flex;
+    }
+
+    .main-vinilos{
+        width: 100%;
+        max-width:80%;
+        margin:10vw 10vw;
+        padding: 1vw 1vw;
+        display: grid;
+        grid-template-columns: 20fr 20fr;
+        gap: 40px;
+    }
+    
+    .main-index{
+        background-color: rgb(255, 218, 138);
+        display: grid;
+        grid-template-rows: 0.2fr 0.7fr 0.12fr 4.8fr;
+    }
+    .main-aboutus {
+        background-color: rgb(255, 218, 138);
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+    }
+    .titulo-index{
+        grid-row-start: 1;
+        text-align: center;
+        font-size: x-large;
+    }
+    .main-index-img {
+        width:fit-content;
+        height: auto;
+        text-align: center; 
+    }
+    .main-index-img img {
+        width: 40vw;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .main-index-img p {
+        padding: 20px;
+        font-size: large;
+        align-items: center;
+        text-align: center;
+    }
+    .texto-vinilos{
+        color: black;
+        font-size: medium;
+        font-weight: bold;
+        text-align: center;
+    }
+    .texto-center{
+        display: flex;
+        justify-content: center;
+
+    }
+    
+    .titulo-principal{
+        font-size: 6vw;
     }
 }
 /* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/
@@ -816,7 +897,7 @@ table {
 .main-register {
     background-color: rgb(255, 218, 138);
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr 2f;
+    grid-template-rows: 1fr 2fr;
     border: burlywood solid 10px;
     
 }
@@ -826,8 +907,12 @@ table {
     /* grid-row-end: 1;
     grid-row-start: 2; */
     text-align: center;
-    margin: 6vw ;
+<<<<<<< HEAD
+    /* margin: 6vw ; */
     
+=======
+    margin: 5vw ; 
+>>>>>>> fd2b62779be1e53e9bcca7d665b8297f4248bd8c
     
 }
 
@@ -839,8 +924,7 @@ table {
     /* grid-row-end: 2;
     grid-row-start: 3; */
     width: 50vw;
-    margin:0vw 32vw ;
-    max-width: 400px;
+    margin:0vw 25vw;
     
            
  
