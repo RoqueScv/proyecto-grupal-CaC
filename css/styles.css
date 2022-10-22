@@ -30,6 +30,7 @@
 
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
 /*
+
 .header {
     background-color: rgb(58, 40, 0);
     display: flex;
@@ -907,13 +908,13 @@ table {
     /* grid-row-end: 1;
     grid-row-start: 2; */
     text-align: center;
-<<<<<<< HEAD
-    /* margin: 6vw ; */
+
+   
     
 =======
     margin: 5vw ; 
->>>>>>> fd2b62779be1e53e9bcca7d665b8297f4248bd8c
-    
+
+
 }
 
 .formulario-register{
@@ -966,7 +967,7 @@ table {
 
 /* .h1-register p b{
     padding-bottom: 5vw; 
-    justify-content: space-between;
+    justify-content: space-between;    
     
     } */
 
