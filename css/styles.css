@@ -30,7 +30,6 @@
 
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
 /*
-
 .header {
     background-color: rgb(58, 40, 0);
     display: flex;
@@ -428,15 +427,15 @@ table {
 /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */
 
 
-.main-registro {
+/* .main-registro {
     background-color: rgb(255, 218, 138);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 3fr;
-    border: burlywood solid 10px;
+    border: burlywood solid 10px; */
 
-}
-.formulario-registro {
+/* } */
+/* .formulario-registro {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -446,7 +445,7 @@ table {
     grid-row-start: 3;
     width: 40vw;
     margin: 10px 30px 10px 30px;
-}
+} */
 .titulo-registro {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -895,14 +894,24 @@ table {
 /* Formulario registro  Formulario registro  Formulario registro  Formulario registro */
 
     
+
 .main-register {
     background-color: rgb(255, 218, 138);
     display: grid;
     grid-template-rows: 1fr 2fr;
     border: burlywood solid 10px;
     
+    
+    
 }
     
+
+.h1-register {
+    grid-row-end: 1;
+    grid-row-start: 2; 
+    text-align: center;
+    margin: 5vw ; 
+
 
 /* .h1-register {
     /* grid-row-end: 1;
@@ -922,13 +931,13 @@ table {
     grid-row-start: 3; */
    
     
-           
+                 
  
 } .contraseña {
     resize: none;
     width: auto;
     
-} 
+   } 
 /* .form-item {
     display: flex;
     flex-direction: column;
@@ -960,7 +969,7 @@ table {
 
 /* .h1-register p b{
     padding-bottom: 5vw; 
-    justify-content: space-between;    
+    justify-content: space-between;  
     
     } */
 
