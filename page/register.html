@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrarme</title>
     <link rel="stylesheet" href="/css/styles.css">
-    <script src="app-registro.js"></script>
     <link rel="icon" href="/img/Iconos/nota-musical-icon.png">
 </head>
 <body>
@@ -39,66 +38,67 @@
             </div>
         
             <div class="formulario-register">
-        <form id="register_form" action="login.html" method=""  enctype="multipart/form-data" onsubmit="return validacion();" >
-            <div class="regis-item">
-                <label class="required" for="nombre">Nombre:</label>
-                <input id="nombre" class="input" name="nombre" type="text" value="" size="30"placeholder="Zoe"/><label class="mensaje" id="mensaje-nombre"></label>
-            </div> 
-            <div class="regis-item">
-                <label class="required" for="apellido">Apellido:</label>
-                <input id="apellido" class="input" name="apellido" type="text" value="" size="30"placeholder="Perez"/><label class="mensaje" id="mensaje-apellido"></label> 
-            </div>
-            <div class="regis-item">
-                <label class="required" for="email">E-mail:</label>
-                <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="p@gmail.com"/><label class="mensaje" id="mensaje-email"></label>
-            </div>
-            <div class="regis-item">
-                <label class="required" for="email">Nombre de usuario:</label>
-                <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="xxx_xx"/><label class="mensaje" id="mensaje-email"></label>
-            <div class="regis-item">
-                    <label class="required" for="password">Contraseña:</label>
-                    <input type="password" id="password" class="input" name="password" size="16" placeholder="Ingresa tu contraseña"/><label class="mensaje" id="mensaje-contraseña"></label>
-            </div>
-            <div class="regis-item">
-                    <label class="required" for="password">Confirma tu contraseña:</label>
-                    <input type="password" id="password" class="input" name="password" size="16" placeholder="Confirma tu contraseña"/><label class="mensaje" id="mensaje-contraseña"></label>
-            </div>
-            <div class="regis-item">
-                    <label class="required" for="telefono">Telefono:</label>
-                    <input id="telefono" class="input" name="telefono" type="text" value="" size="30" placeholder="11 6150-2976"/><label class="mensaje" id="mensaje-telefono"></label>
-            </div>
-            <div class="regis-item">
-                    <label class="required" for="provincia"> Selecciona tu Provincia</label>
-                    <select name="Provincia">
-                            <option>Buenos Aires</option>
-                            <option>Ciudad Autónoma de Buenos Aires</option>
-                            <option>Catamarca</option>  
-                            <option>Chaco</option>
-                            <option>Chubut</option>
-                            <option>Córdoba</option>
-                            <option>Corrientes</option>
-                            <option>Entre Rios</option>
-                            <option>Formosa</option>   
-                            <option>Jujuy</option>                      
-                            <option>La Pampa</option>
-                            <option>La Rioja</option>
-                            <option>Mendoza</option>
-                            <option>Misiones</option>
-                            <option>Neuquén</option>
-                            <option>Rio Negro</option>
-                            <option>Salta</option>
-                            <option>San Juán</option>
-                            <option>San Luis</option>
-                            <option>Santa Cruz</option>
-                            <option>Santa Fe</option>
-                            <option>Santiago del Estero</option>
-                            <option>Tierra del Fuego</option>
-                            <option>Tucumán</option>
-                    </select>      
-                </div>
-                <div class="botones-register">
-                    <input id="submit_button" type="submit" value="Continuar" />
-                     <input type="reset" value="Borrar"> 
+                <form id="register_form" action="login.html" method=""  enctype="multipart/form-data" onsubmit="return validacion2();" >
+                    <div class="regis-item">
+                        <label class="required" for="nombre">Nombre:</label>
+                        <input id="nombre2" class="input" name="nombre" type="text" value="" size="30"placeholder="Zoe"/><label class="mensaje" id="mensaje-nombre2"></label>
+                    </div> 
+                    <div class="regis-item">
+                        <label class="required" for="apellido">Apellido:</label>
+                        <input id="apellido2" class="input" name="apellido" type="text" value="" size="30"placeholder="Perez"/><label class="mensaje" id="mensaje-apellido2"></label> 
+                    </div>
+                    <div class="regis-item">
+                        <label class="required" for="email">E-mail:</label>
+                        <input id="email2" class="input" name="email" type="text" value="" size="30" placeholder="p@gmail.com"/><label class="mensaje" id="mensaje-email2"></label>
+                    </div>
+                    <div class="regis-item">
+                        <label class="required" for="user">Nombre de usuario:</label>
+                        <input id="user" class="input" name="user" type="text" value="" size="30" placeholder="xxx_xx"/><label class="mensaje" id="mensaje-email2"></label>
+                    </div>
+                    <div class="regis-item">
+                        <label class="required" for="password">Contraseña:</label>
+                        <input type="password" id="password2" class="input" name="password" size="16" placeholder="Ingresa tu contraseña"/><label class="mensaje" id="mensaje-contraseña2"></label>
+                    </div>
+                    <div class="regis-item">
+                        <label class="required" for="password">Confirma tu contraseña:</label>
+                        <input type="password" id="confirm-password" class="input" name="password" size="16" placeholder="Confirma tu contraseña"/><label class="mensaje" id="mensaje-confirma-contraseña2"></label>
+                    </div>
+                    <div class="regis-item">
+                        <label class="required" for="telefono">Telefono:</label>
+                        <input id="telefono" class="input" name="telefono" type="text" value="" size="30" placeholder="11 6150-2976"/><label class="mensaje" id="mensaje-telefono2"></label>
+                    </div>
+                    <div class="regis-item">
+                        <label class="required" for="provincia"> Selecciona tu Provincia</label>
+                        <select name="Provincia">
+                                    <option>Buenos Aires</option>
+                                    <option>Ciudad Autónoma de Buenos Aires</option>
+                                    <option>Catamarca</option>  
+                                    <option>Chaco</option>
+                                    <option>Chubut</option>
+                                    <option>Córdoba</option>
+                                    <option>Corrientes</option>
+                                    <option>Entre Rios</option>
+                                    <option>Formosa</option>   
+                                    <option>Jujuy</option>                      
+                                    <option>La Pampa</option>
+                                    <option>La Rioja</option>
+                                    <option>Mendoza</option>
+                                    <option>Misiones</option>
+                                    <option>Neuquén</option>
+                                    <option>Rio Negro</option>
+                                    <option>Salta</option>
+                                    <option>San Juán</option>
+                                    <option>San Luis</option>
+                                    <option>Santa Cruz</option>
+                                    <option>Santa Fe</option>
+                                    <option>Santiago del Estero</option>
+                                    <option>Tierra del Fuego</option>
+                                    <option>Tucumán</option>
+                            </select>      
+                        </div>
+                        <div class="botones-register">
+                            <input id="submit_button" type="submit" value="Continuar" />
+                            <input type="reset" value="Borrar"> 
                 </div>
             </form>
             <script src="/js/register.js"></script>
