@@ -14,6 +14,7 @@ function validacion2()
         elemento.focus();
         return false;
     }   
+
     if(valorApellido == null || valorApellido.length < 3) {
         document.getElementById('mensaje-apellido').innerHTML = "Tenes que completar el Apellido!";
         elemento = document.getElementById('apellido2');
@@ -21,8 +22,8 @@ function validacion2()
         return false;
     }   
   
-    }
-    document.getElementById('mensaje-email').innerHTML = "";
+    
+    
     if(!(/^\w+([\.-]?\w+)*@(?:|hotmail|outlook|yahoo|live|gmail)\.(?:|com|ar)+$/.test(valorEmail))) {
         document.getElementById('mensaje-email').innerHTML = "No es una direccion de email correcta" ;
                 
@@ -31,29 +32,33 @@ function validacion2()
             
         return false;
     }
-    document.getElementById('mensaje-contraseña').innerHTML = ""
+    document.getElementById('mensaje-email2').innerHTML = "";
+   
     if(valorAsunto == null || valorAsunto.length < 3) {
         document.getElementById('mensaje-contraseña').innerHTML = "Tenes que ingresar una contraseña!";
-        elemento = document.getElementById('password');
+        elemento = document.getElementById('password2');
         elemento.focus();
         return false;
     }
-    document.getElementById('mensaje-confirma').innerHTML = "";
+    document.getElementById('mensaje-contraseña2').innerHTML = ""
+    
     if(valorMensaje == null || valorMensaje.length < 3) {
         document.getElementById('mensaje-confirma').innerHTML = "Tenes que confirmar la contraseña!";
-        elemento = document.getElementById('confirm-password');
+        elemento = document.getElementById('confirm-password2');
         elemento.focus();
         return false;
     }
-    document.getElementById('mensaje-telefono').innerHTML = "";
+    document.getElementById('mensaje-confirma2').innerHTML = "";
+
     if(isNaN(valorTelefono) || valorTelefono.length > 12 || valorTelefono.length < 8 ) {
         document.getElementById('mensaje-telefono').innerHTML = "El telefono debe ser un numero de 8-12 cifras!";
-        elemento = document.getElementById('telefono');
+        elemento = document.getElementById('telefono2');
         elemento.focus();
         
         return false;
     }
-    document.getElementById('mensaje-mensaje').innerHTML = "";
+    document.getElementById('mensaje-telefono2').innerHTML = "";
         return true;
                         
 
+}
