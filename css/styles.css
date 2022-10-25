@@ -1,4 +1,6 @@
 /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -30,7 +32,11 @@
 
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
 
+.nav-logo {
+    font-family: 'Lobster Two', cursive;
+    font-size: 10vw;
 
+}
 
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
 
