@@ -31,13 +31,57 @@
 
 
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
-
+.nav {
+    background-color: rgb(113, 113, 113);
+    color: #fff;
+    height: 10vw;
+}
+.nav-container {
+    display: flex;
+    height: 100%;
+    width: 90%;
+    margin: 0 2vw;
+    justify-content: space-between;
+    align-items: center;
+}
 .nav-logo {
+    display: flex;
+    flex-direction: row;
+}
+.nav-menu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3em;
+}
+.nav-item {
+    color: #fff;
+    text-decoration: none;
     font-family: 'Lobster Two', cursive;
-    font-size: 10vw;
+    font-size: 2vw;
+}
+.nav-item:hover {
+    color: rgb(255, 218, 138);
+}
+.nav-item::after {
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 90%;
+    margin-top: 3px;
+    height: 3px;
+}
+.nav-logo h1 {
+    color: black;
+    font-family: 'Lobster Two', cursive;
+    font-size: 5vw;
+}
+.nav-logo img {
+    height: 5vw;
 
 }
-
+.nav-label, .nav-input {
+    display: none;
+}
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
 
 
