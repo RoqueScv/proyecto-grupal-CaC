@@ -10,14 +10,13 @@
     color: rgb(0, 0, 0);
 }
 .subtitulo-h2 {
+    font-size: 35px;
     width: 100%;
     padding: 1vw;
     text-align: center;
-    font-size: xx-large;
 }
 .mensaje{
     width: 100%;
-    /* float: left;  */
     background-color: bisque;
     color: rgb(205, 40, 40);
     border-radius: 0.5rem;
@@ -32,7 +31,7 @@
 
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
 .nav {
-    background-color: rgb(113, 113, 113);
+    background-color: rgb(58, 40, 0);
     color: #fff;
     height: 10vw;
 }
@@ -219,6 +218,7 @@ table {
 }
 /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/
 
+
 /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/
 .footer {
     background-color: rgb(255, 218, 138);
@@ -259,11 +259,7 @@ table {
     grid-template-rows: 7fr 30fr 5fr 65fr;
     border: burlywood solid 10px;
 }
-.main-aboutus {
-    background-color: rgb(255, 218, 138);
-    display: grid;
-    grid-template-rows: auto auto;
-}
+
 .titulo-index{
     margin: 0.5vw auto;
     text-align: center;
@@ -305,61 +301,127 @@ table {
 /* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*/
 
 
-/* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */
-.main-destino{
+/* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*/
+
+.main-aboutus {
     background-color: rgb(255, 218, 138);
     display: grid;
-    grid-template-rows: 10fr;
+    grid-template-rows: 25fr 10fr;
+}
+
+.main-aboutus-img {
+    width: auto;
+    height: auto;
+    text-align: center; 
+    margin: 2% 2% 8% 2% ;
+}
+
+.main-aboutus-img p {
+    padding: 20px;
+    font-size: x-large;
+    align-items: center;
+    text-align: center;
+}
+
+.aboutus-introduccion {
+    padding: 20px;
+    font-size: x-large;
+    align-items: center;
+    text-align: center;
+}
+
+/* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*/
+
+/* Registro*/ /* Registro*//* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/ /* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/
+
+
+.formulario-registro form div{
+    font-style: italic;
+    margin: 40px;
+    text-align: center;
+    size: 10px;
+    border-color:red  solid 1px  ;
+
+}
+
+.formulario-registro div{
+    align-items: center; 
+
+}
+.main-register {
+    background-color: rgb(255, 218, 138);
+    display: grid;
+    grid-template-rows: 1fr 4fr;
     border: burlywood solid 10px;
 }
 
-.titulo-destino{
+.h1-register {
+    text-align: center;
+    margin: 1vw ; 
+}
+
+.formulario-register{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1vw 2vw;
+    align-items: center;
+    margin: 3%;
+} 
+
+.regis-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.contraseña {
+    resize: none;
+    width: auto;
+    
+}
+
+.botones-register{
+    display: flex;
+    margin: 2vw 0;
+    justify-content: space-between;
+    
+}
+
+/* Registro*/ /* Registro*//* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/ /* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/
+
+
+
+/* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ 
+
+.main-login {
+    background-color: rgb(255, 218, 138);
+    display: grid;
+    grid-template-rows: 20fr 60fr;
+    border: burlywood solid 10px;
+}
+    
+.h1-login {
     text-align: center;
     margin: 3%;
 }
 
-
-/* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */ /* ESTILOS DESTINO */
-
-
-/* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */ /* ESTILOS REGISTRO */
-
-
-/* .main-registro {
-    background-color: rgb(255, 218, 138);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 3fr;
-    border: burlywood solid 10px; */
-
-/* } */
-/* .formulario-registro {
+.formulario-login{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-end: 3;
-    grid-row-start: 3;
-    width: 40vw;
-    margin: 10px 30px 10px 30px;
-} */
-.titulo-registro {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-end: 1;
-    grid-row-start: 2;
     text-align: center;
+    align-items: center;
+    margin: 3%;
+    
+} 
+
+.form-item {
+    display: flex;
+    flex-direction: column;
 }
 
-.main-login{
-    background-color: rgb(255, 218, 138);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 3fr;
-    border: burlywood solid 10px;
-}
 
+/* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ 
 
 
 /* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES */
@@ -442,66 +504,7 @@ table {
 /* ESTILOS PÁGINA DE CONTACTO*/
 
 
-
 /* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
-
-   /*  .header {
-        background-color: rgb(58, 40, 0);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 15vh;
-    }
-    .header .logo {
-        cursor: pointer;
-    }
-    .header .logo img {
-        height: 1vh;
-        transition: all 0.3s;
-    }
-    .header .logo img:hover {
-        transform: scale(1.2);
-    }
-    .header .nav-links li {
-        display:inline-flex;
-        padding: 0 10px;
-    }
-    .header .nav-links li:hover {
-        transform: scale(1.1);
-    }
-    .header .nav-links a {
-        font-size: 0.7em;
-        text-decoration: none;
-        color: aliceblue;
-
-    }
-    .header .nav-links a:hover{
-        color: rgb(249, 206, 67);
-    }
-    .header .btn button {
-        font-size: 0.5em;
-        color: black;
-        background: #fff;
-        border: none;
-        border-radius: 15px;
-        cursor: pointer;
-        transition: all 0.3s ease 0s;
-    }
-    .header .btn button:hover {
-        color: rgb(249, 206, 67);
-        transform: scale(1.1);
-    }
-    
-    .buttons {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-around;
-    }
-    .buttons a {
-        margin: 1vw;
-    } */
 
 
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/
@@ -522,11 +525,6 @@ table {
         background-color: rgb(255, 218, 138);
         display: grid;
         grid-template-rows: 0.10fr 0.55fr 0.10fr 4.8fr;
-    }
-    .main-aboutus {
-        background-color: rgb(255, 218, 138);
-        display: grid;
-        grid-template-rows: auto auto auto auto;
     }
     .titulo-index{
         grid-row-start: 1;
@@ -565,7 +563,6 @@ table {
     .titulo-principal{
         font-size: 10vw;
     }
-
 
 }
 
@@ -618,11 +615,6 @@ table {
         display: grid;
         grid-template-rows: 0.2fr 0.7fr 0.12fr 4.8fr;
     }
-    .main-aboutus {
-        background-color: rgb(255, 218, 138);
-        display: grid;
-        grid-template-rows: auto auto auto auto;
-    }
     .titulo-index{
         grid-row-start: 1;
         text-align: center;
@@ -665,212 +657,6 @@ table {
 
 
 /* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES */
-
-/* Registro*/ /* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/
-
-
-
-
-
-
-.main-registro{
-     background-color: rgb(255, 218, 138);
-
-}
-.formulario-registro{
-    display: grid;
-    grid-template-columns: 90%;
-    grid-template-rows: 90%;
-
-}
-
-.formulario-registro form div{
-    font-style: italic;
-    margin: 40px;
-    text-align: center;
-    size: 10px;
-    border-color:red  solid 1px  ;
-
-}
-
-.formulario-registro div{
-    align-items: center; 
-
-    
-    
-
-    
-}
-         
-            
-
-
-/* Registro*//* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/
-
-
-
- 
-
-/* .formulario-registro form div{
-    
-    margin: 40px;
-    text-align: center;
-    size: 10px;
-   
-
-}
- .h1-contacto2 {
-    grid-column-start: 1;
-    grid-column-end: 1 ;
-    grid-row-end: 1;
-    grid-row-start: 2;
-    text-align: center;
-    color: #25D366;
-    font-size: 24px;} */
-
-
-    /* formulario login   formulario login formulario login  */
-
-        
-    
-.main-login {
-    background-color: rgb(255, 218, 138);
-    display: grid;
-    grid-template-rows: 1fr 2fr;
-    border: burlywood solid 10px;}
-    
-.h1-login {
-    grid-row-end: 1;
-    grid-row-start: 2;
-    text-align: center;
-    margin: 5vw;
-}
-
-.formulario-login{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    grid-row-end: 2;
-    grid-row-start: 3;
-    width: 40vw;
-    margin:0vw 35vw ;
-    max-width: 400px;
-    
-           
-
- 
-} .contraseña {
-    resize: none;
-    width: auto;
-    
-}
-.form-item {
-    display: flex;
-    flex-direction: column;
-}
-   
- .botones-registro{
-    display: flex;
-    
-}
-.botones-registro input{
-    margin: 1vw;
-    bottom: 10px
- 
-}
- .h1-contacto p a{
-    padding-bottom: 15vw;
-
-} 
-.login-botones{
-    display: flex;
-    margin: 2vw 0;
-    justify-content: space-between;
-    
-}
-
-/* Formulario registro  Formulario registro  Formulario registro  Formulario registro */
-
-    
-
-.main-register {
-    background-color: rgb(255, 218, 138);
-    display: grid;
-    grid-template-rows: 1fr 2fr;
-    border: burlywood solid 10px;
-    
-    
-    
-}
-    
-
-.h1-register {
-    grid-row-end: 1;
-    grid-row-start: 2; 
-    text-align: center;
-    margin: 5vw ; 
-
-
-/* .h1-register {
-    /* grid-row-end: 1;
-    grid-row-start: 2; */
-    text-align: center; }
- */
-
-.formulario-register{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    margin:0vw 35vw ;
-    max-width: 400px;
-    width: 50vw;
-    margin:0vw 40vw;
-    /* grid-row-end: 2;
-    grid-row-start: 3; */
-   
-    
-                 
- 
-} .contraseña {
-    resize: none;
-    width: auto;
-    
-   } 
-/* .form-item {
-    display: flex;
-    flex-direction: column;
-}  */
-   
-/* .botones-register{
-    display: flex;
-    
-}  */
-.botones-register input{
-    margin: 0vw;
-    bottom: 10px
- 
-}
-.h1-register p a{
-    padding-bottom: 5vw;
-    text-align: center;
-    
-
-} */
-
-/* Bien */
-.botones-register{
-    display: flex;
-    margin: 2vw 0;
-    justify-content: space-between;
-    
-}
-
-/* .h1-register p b{
-    padding-bottom: 5vw; 
-    justify-content: space-between;  
-    
-    } */
-
 
 
     

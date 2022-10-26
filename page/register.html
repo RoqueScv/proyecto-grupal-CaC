@@ -32,9 +32,10 @@
     </header>
     <main class="main-register">
         <div class="h1-register"> 
-            <p class="a">Primera vez?</p>
             <h1 class="titulo-principal">Registrate</h1> 
-            <p class="b">El registro es fácil y rápido</p>
+            <p>Para poder acceder a nuestra store es necesario tener un usuario, por lo que te recomendamos que completes el 
+                formulario de abajo para poder comprar nuestros productos!</p>
+                <p> ¿Ya tenés una cuenta? <a href="login.html">Hacé click acá </a> </p>
         </div>
         <div class="formulario-register">
             <form id="register_form" action="login.html" method=""  enctype="multipart/form-data" onsubmit="return validacion2();" >
@@ -56,18 +57,18 @@
                 </div>
                 <div class="regis-item">
                     <label class="required" for="password">Contraseña:</label>
-                    <input type="password" id="password2" class="input" name="password" size="16" placeholder="Ingresa tu contraseña"/><label class="mensaje" id="mensaje-contraseña2"></label>
+                    <input type="password" id="password2" class="input" name="password" size="30" placeholder="Ingresa tu contraseña"/><label class="mensaje" id="mensaje-contraseña2"></label>
                 </div>
                 <div class="regis-item">
                     <label class="required" for="password">Confirma tu contraseña:</label>
-                    <input type="password" id="confirm-password" class="input" name="password" size="16" placeholder="Confirma tu contraseña"/><label class="mensaje" id="mensaje-confirma-contraseña2"></label>
+                    <input type="password" id="confirm-password" class="input" name="password" size="30" placeholder="Confirma tu contraseña"/><label class="mensaje" id="mensaje-confirma-contraseña2"></label>
                 </div>
                 <div class="botones-register">
                     <input id="submit_button" type="submit" value="Continuar" />
                     <input type="reset" value="Borrar"> 
                 </div>
             </form>
-        <script src="/js/register.js"></script>
+            <script src="/js/register.js"></script>
         </div>
         <a href="https://wa.me/5491161502976" target="_blank" class="ico-whatsapp"><img src="/img/Iconos/Whatsapp.ico" width="35" alt=""><span>¡Estamos Online!</span></a>
     </main>
