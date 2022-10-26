@@ -11,24 +11,26 @@
     </head>
     <body>
         <header>
-            <nav class="nav">
-                <div class="nav-container">
-                    <div class="nav-logo">
-                        <img src="/img/Iconos/logo.svg" class="img-logo">
-                        <h1>Solini Vinilos</h1>
-                    </div>
-                    
-                    <label for="menu" class="nav-label">
-                        <img src="/img/Iconos/menu.svg" class="nav-img">
-                    </label>
-                    <input type="checkbox" id="menu" class="nav-input">
-                    <div class="nav-menu">
-                        <a href="/index.html" class="nav-item">Inicio</a>
-                        <a href="/page/aboutus.html" class="nav-item">Acerca de Nosotros</a>
-                        <a href="/page/contact.html" class="nav-item">Contacto</a>
-                    </div>
-                </div>
-            </nav>
+            <div class="container">
+                <h1><a href="#">Solini<span>Vinilos</span></a></h1>
+
+                <input type="checkbox" id="menu-check">
+                <label id="menu" for="menu-check">
+                    <span id="menu-abrir">&#9776;</span>
+                    <span id="menu-cerrar">X</span>
+                </label>
+                <nav>
+                    <ul>
+                        <li><a href="/index.html">Inicio</a></li>
+                        <li><a href="/page/aboutus.html">Acerca de Nosotros</a></li>
+                        <li><a href="/page/contact.html">Contacto</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/page/register.html">Registrarse</a></li>
+                        <li><a href="/page/login.html" class="boton-invertido">Iniciar Sesion</a></li>   
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main class="main-contacto">
             <div class="h1-contacto">
