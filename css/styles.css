@@ -30,6 +30,116 @@
 
 
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
+header {
+    background-color: burlywood;
+}
+header div.container {
+    margin: 0.5vw 0.5vw;
+}
+header div.container h1 {
+    transform: scaleX(1.1);
+}
+header div.container h1:hover {
+    transition: 0.5s;
+    
+}
+header div.container nav {
+    width: 70%;
+    display: flex;
+    place-content: space-between;
+}
+#menu, #menu-check {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    header div.container, header div.container ul, header div.container ul li {
+        display: inline;
+    }
+    header div.container nav {
+        width: 100%;
+        display: inline;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    header h1 {
+        margin: 0.5vw;
+        font-size: 8vw;
+    }
+    header h1 a, header h1 a span {
+        padding: 0;
+        font-size: 7vw;
+        font-family: 'Lobster Two';
+    }
+    header div.container {
+        display: flex;
+        place-content: space-between;
+    }
+    #menu-check:not(:checked) ~ nav {
+        display: none;
+    }
+    #menu-check:checked ~ nav {
+        display: block;
+
+    }
+    #menu {
+        display: block;
+        color: brown;
+        background-color: #fff;
+        font-size: 1.2em;
+        font-weight: bold;
+        border: 3px solid brown;
+        border-radius: 0.3em;
+        position: absolute;
+        right: 0.5em;
+        top: 0.5em;
+        z-index: 9999;
+    }
+    #menu:hover {
+        color: brown;
+        background-color: rgb(255, 218, 138);
+    }
+    #menu-cerrar {
+        display: none;
+    }
+    #menu-check:checked ~ label #menu-abrir {
+        display: none;
+    }
+    #menu-check:checked ~ label #menu-cerrar {
+        display: block;
+    }
+    header div.container nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        background-color: burlywood;
+        padding-top: 0.5em;
+        opacity: 0.8;
+        color: black;
+    }
+    header div.container nav ul a {
+        color: black;
+        background: none;
+    }
+    header div.container nav ul, header div.container nav ul li {
+        display: block;
+        text-align: right;
+    }
+    header div.container nav .boton-invertido {
+        border: 0;
+        border-radius: 0;
+    }
+}
+
+
+
+
+
+
+
 .nav {
     background-color: rgb(58, 40, 0);
     color: #fff;
