@@ -98,16 +98,6 @@ header div.container nav ul a:hover {
     display: none;
 }
 
-/* @media only screen and (max-width: 1024px) {
-    header div.container, header div.container ul, header div.container ul li {
-        display: inline;
-    }
-    header div.container nav {
-        width: 100%;
-        display: inline;
-    }
-} */
-
 
 @media only screen and (max-width: 700px) {
     header h1 a, header h1 a span {
@@ -428,6 +418,7 @@ table {
     background-color: rgb(255, 218, 138);
     display: grid;
     grid-template-rows: 25fr 10fr;
+    border: burlywood solid 10px;
 }
 
 .main-aboutus-img {
