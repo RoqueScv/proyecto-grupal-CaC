@@ -1,4 +1,5 @@
 /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap');
 
 * {
@@ -24,10 +25,8 @@
 }
 ::placeholder {
     font-size: 0.7em;
-    
   }
 /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/ /*ESTILOS GENERALES*/
-
 
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
 header {
@@ -52,7 +51,6 @@ header div h1 a, header div h1 a span {
     font-size: 6vw;
     font-family: 'Lobster Two';
     color: burlywood;
-    
 }
 header div.container {
     display: flex;
@@ -98,104 +96,7 @@ header div.container nav ul a:hover {
 #menu, #menu-check {
     display: none;
 }
-
-
-@media only screen and (max-width: 700px) {
-    header h1 a, header h1 a span {
-        padding: 0;
-        font-size: 6vw;
-        font-family: 'Lobster Two';
-    }
-    header div.container {
-        display: flex;
-        place-content: space-between;
-    }
-    header div.container label span {
-        display: block;
-    }
-    #menu-check:not(:checked) ~ nav {
-        display: none;
-    }
-    #menu-check:checked ~ nav {
-        position: absolute;
-        top: 0;
-        right: 0;
-        display: flex;
-        align-items: center;
-        place-content: center;
-        justify-content: center;
-        height: 45vw;
-        width: 70%;
-    }
-    #menu {
-        display: block;
-        color: brown;
-        background-color: rgb(255, 218, 138);
-        font-size: 1.2em;
-        font-weight: bold;
-        border: 3px solid brown;
-        border-radius: 0.3em;
-        position: absolute;
-        right: 1vw;
-        top: 1vw;
-        z-index: 9999;
-        transition: 0.5s;
-    }
-    #menu:hover {
-        color: brown;
-        background-color: rgb(255, 218, 138);
-        transform: scale(1.2);
-    }
-    #menu-cerrar {
-        display: none;
-    }
-    #menu-check:checked ~ label #menu-abrir {
-        display: none;
-    }
-    #menu-check:checked ~ label #menu-cerrar {
-        display: block;
-    }
-    header div.container nav {
-        position: absolute;
-        top: 0;
-        right: 0;
-        height: 100vw;
-        width: 40vw;
-        background-color: burlywood;
-        padding-top: 0.5em;
-        opacity: 0.8;
-        color: black;
-
-    }
-    header div.container nav ul {
-        width: 100%;
-        display: block;
-    }
-    header div.container nav ul li {
-        width: 100%;
-    }
-
-    header div.container nav ul li a {
-        display: block;
-        color: rgb(58, 40, 0);
-        background-color: burlywood;
-        justify-content: center;
-        width: 100%;
-
-    }
-    header div.container nav ul li a:hover {
-        background-color: #fff;
-        color: black;
-    }
-    header div.container nav .boton-invertido {
-        border: 0;
-        border-radius: 0;
-    }
-}
-
 /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
-
-
 
 /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/
 .main-contacto {
@@ -262,12 +163,9 @@ header div.container nav ul a:hover {
     font-size: 12px;
     letter-spacing: 0.5px;
     font-style: italic;
-
 }
 
 /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/ /* ESTILOS PÁGINA DE CONTACTO*/
-
-
 
 /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/
 .main-ft{
@@ -286,7 +184,6 @@ td {
 table ul{
     list-style-type: none;  /* Elimina el Bullet de la lista */
     text-align: center;
-
 }
 th {
     font-size: 1.2vw;
@@ -306,7 +203,6 @@ table {
     text-align: center;
 
 }
-
 .yt-a{
     padding-top: 10vh;
     width: 100%;
@@ -324,12 +220,10 @@ table {
     margin: 1vw;
     background-color: rgba(214, 198, 19, 0.6) 
 }
-
 .redireccion a{
     font-weight: bolder;
 }
 /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/ /* ESTILOS DE LAS FICHAS TÉCNICAS*/
-
 
 /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/
 .footer {
@@ -338,10 +232,7 @@ table {
     text-align: center; 
     flex-direction: column;  
 } 
-
 /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/ /* ESTILOS DEL FOOTER*/
-
-
 
 /* ESTILOS DEL INDEX */
 .main-vinilos{
@@ -353,25 +244,21 @@ table {
     grid-template-columns: 23% 23% 23% 23%;
     gap: 25px;    
 }
-
 .titulo-principal{
     font-size: 4vw;
     margin-top: 2vh;
 }
-
 .main-vinilos img {
 
     width: 100%;
     height: 100%;
 }
-
 .main-index{
     background-color: rgb(255, 218, 138);
     display: grid;
     grid-template-rows: 7fr 30fr 5fr 65fr;
     border: burlywood solid 10px;
 }
-
 .titulo-index{
     margin: 0.5vw auto;
     text-align: center;
@@ -412,7 +299,6 @@ table {
 
 /* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*//* ESTILOS DEL INDEX*/
 
-
 /* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*//* ESTILOS ABOUTUS*/
 
 .main-aboutus {
@@ -421,21 +307,18 @@ table {
     grid-template-rows: 25fr 10fr;
     border: burlywood solid 10px;
 }
-
 .main-aboutus-img {
     width: auto;
     height: auto;
     text-align: center; 
     margin: 2% 2% 8% 2% ;
 }
-
 .main-aboutus-img p {
     padding: 20px;
     font-size: x-large;
     align-items: center;
     text-align: center;
 }
-
 .aboutus-introduccion {
     padding: 20px;
     font-size: x-large;
@@ -447,7 +330,6 @@ table {
 
 /* Registro*/ /* Registro*//* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/ /* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/
 
-
 .formulario-registro form div{
     font-style: italic;
     margin: 40px;
@@ -456,7 +338,6 @@ table {
     border-color:red  solid 1px  ;
 
 }
-
 .formulario-registro div{
     align-items: center; 
 
@@ -467,12 +348,10 @@ table {
     grid-template-rows: 1fr 4fr;
     border: burlywood solid 10px;
 }
-
 .h1-register {
     text-align: center;
     margin: 1vw ; 
 }
-
 .formulario-register{
     display: flex;
     flex-wrap: wrap;
@@ -480,29 +359,23 @@ table {
     margin: 1vw 2vw;
     align-items: center;
     margin: 3%;
-} 
-
+}
 .regis-item{
     display: flex;
     flex-direction: column;
 }
-
 .contraseña {
     resize: none;
     width: auto;
     
 }
-
 .botones-register{
     display: flex;
     margin: 2vw 0;
     justify-content: space-between;
     
 }
-
 /* Registro*/ /* Registro*//* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/ /* Registro*//* Registro*//* Registro*//* Registro*//* Registro*/
-
-
 
 /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ 
 
@@ -511,13 +384,11 @@ table {
     display: grid;
     grid-template-rows: 20fr 60fr;
     border: burlywood solid 10px;
-}
-    
+}    
 .h1-login {
     text-align: center;
     margin: 3%;
 }
-
 .formulario-login{
     display: flex;
     flex-wrap: nowrap;
@@ -527,192 +398,255 @@ table {
     margin: 3%;
     
 } 
-
 .form-item {
     display: flex;
     flex-direction: column;
 }
 
-
 /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ /* Login */ 
-
 
 /* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES */
 
 
-/* ESTILOS PÁGINA DE CONTACTO*/
+@media only screen and (min-width:1024px) {
+/*BARRA DE NAVEGACION*/ /*BARRA DE NAVEGACION*/
 
-
-@media only screen and (max-width: 450px)  {
-
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+    header {
+        background-color: rgb(58, 40, 0);
+        color: #fff;
+        height: 12vw;
     }
-
-    .toggle-button {
+    header h1 {
+        margin: 1vw;
+        font-size: 8vw;
+        transition: 0.3s;
+    }
+    header h1:hover {
+        transform: scale(1.1);
+    }
+    header div h1 a, header div h1 a span {
+        padding: 0.5vw;
+        font-size: 6vw;
+        font-family: 'Lobster Two';
+        color: burlywood;
+    }
+    header div.container {
         display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 97%;
+        margin: 0 1 0 0vw;
+        justify-content: space-between;
+        align-items: center;
     }
-
-    .navbar-links {
+    header div.container nav {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 0 0 0 1vw;
+    }
+    header div.container nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin: 1.5vw 0;
+    }
+    header div.container nav ul li {
+        list-style-type: none;
+        transition: 0.3s;
+        margin: 0 0.5vw;
+    }
+    header div.container nav ul li:hover {
+        transform: scale(1.2);
+    }
+    header div.container nav ul a {
+        text-decoration: none;
+        color: rgb(58, 40, 0);
+        background-color: burlywood;
+        padding: 0.4vw;
+        border-radius: 1.5vw;
+        transition: 0.3s;
+    }
+    header div.container nav ul a:hover {
+        color: rgb(255, 255, 255);
+    }
+    #menu, #menu-check {
         display: none;
-        width: 100%;
     }
-
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links ul li {
-        text-align: center;
-    }
-
-    .navbar-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links.active {
-        display: flex;
-    }
-    .main-contacto {
-        background-color: rgb(255, 218, 138);
-        display: grid;
-        grid-template-rows: 1fr 4fr 4fr 1fr;
-    }
-    .h1-contacto {
-        grid-row-end: 1;
-        grid-row-start: 2;
-        text-align: center;
-    
-    }
-    .formulario-contacto {
-        grid-row-end: 2;
-        grid-row-start: 3;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        margin: 1px 3px;
-        width: 90%;
-        margin: 1vh auto;
-    }
-    .form-item {
-        display: flex;
-        flex-direction: column;
-    }
-    .contact-iframe{
-        grid-row-end: 3;
-        grid-row-start: 4;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        width: 90%;
-        margin: 10vh auto;
-    }
-    .header {
-        width: 100%;
-    }
-    .main-contacto {
-        width: 100%
-    }
-
-/* ESTILOS PÁGINA DE CONTACTO*/
+}
+/* BARRA DE NAVEGACION *//* BARRA DE NAVEGACION */
 
 
-/* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*/
+@media only screen and (min-width:750px) and (max-width: 1024px) {
+/*BARRA DE NAVEGACION*/ /*BARRA DE NAVEGACION*/
 
+        header {
+            background-color: rgb(58, 40, 0);
+            color: #fff;
+            height: 12vw;
+        }
+        header div h1 {
+            margin: 0.5vw;
+        }
+        header h1 {
+            margin: 1vw;
+            font-size: 8vw;
+            transition: 0.3s;
+        }
+        header h1:hover {
+            transform: scale(1.1);
+        }
+        header div h1 a, header div h1 a span {
+            padding: 0.5vw;
+            font-size: 6vw;
+            font-family: 'Lobster Two';
+            color: burlywood;
+        }
+        header div.container {
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            width: 90%;
+            margin: 0 2vw;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header div.container nav {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 0 0 0 4vw;
+        }
+        header div.container nav ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            margin: 1.5vw 0;
+        }
+        header div.container nav ul li {
+            list-style-type: none;
+            transition: 0.3s;
+            margin: 0 0.5vw;
+        }
+        header div.container nav ul li:hover {
+            transform: scale(1.2);
+        }
+        header div.container nav ul a {
+            text-decoration: none;
+            color: rgb(58, 40, 0);
+            background-color: burlywood;
+            padding: 0.5vw;
+            border-radius: 1.5vw;
+            transition: 0.3s;
+        }
+        header div.container nav ul a:hover {
+            color: rgb(255, 255, 255);
+        }
+        #menu, #menu-check {
+            display: none;
+        }
+    }
+/* BARRA DE NAVEGACION *//* BARRA DE NAVEGACION */
 
-/* ESTILOS BARRA DE NAVEGACION*/ /* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/
+@media only screen and (min-width:450px) and (max-width: 750px) {
 
-
-
-    .main-vinilos{
-        width: 100%;
-        max-width: 50vw;
-        margin:20vw;
-        padding: 0.4vw 0.6vw;
-        display: grid;
-        grid-template-columns: 55vw;
-        gap: 30px;
+    .titulo-principal{
+        font-size: 6vw;
     }
-    
-    .main-index{
-        background-color: rgb(255, 218, 138);
-        display: grid;
-        grid-template-rows: 0.10fr 0.55fr 0.10fr 4.8fr;
+/* BARRA DE NAVEGACION *//* BARRA DE NAVEGACION */
+    header h1 a, header h1 a span {
+        padding: 0;
+        font-size: 6vw;
+        font-family: 'Lobster Two';
     }
-    .titulo-index{
-        grid-row-start: 1;
-        text-align: center;
-        font-size: x-large;
-    }
-    .main-index-img {
-        width:fit-content;
-        height: auto;
-        text-align: center; 
-    }
-    .main-index-img img {
-        width: 40vw;
-        height: auto;
-        align-items: center;
-        text-align: center;
-    }
-    .main-index-img p {
-        padding: 10px;
-        font-size: large;
-        align-items: center;
-        text-align: center;
-    }
-    .texto-vinilos{
-        color: black;
-        font-size: medium;
-        font-weight: bold;
-        text-align: center;
-    }
-    .texto-center{
+    header div.container {
         display: flex;
         justify-content: center;
-
     }
-    
-    .titulo-principal{
-        font-size: 10vw;
+    header div.container label span {
+        display: block;
     }
-
-}
-
-@media only screen and (min-width:450px) and (max-width: 800px) {
-
-/* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .navbar-links {
+    #menu-check:not(:checked) ~ nav {
         display: none;
-        width: 100%;
     }
-
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links ul li {
-        text-align: center;
-    }
-
-    .navbar-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links.active {
+    #menu-check:checked ~ nav {
+        position: absolute;
+        top: 0;
+        right: 0;
         display: flex;
+        align-items: center;
+        place-content: center;
+        justify-content: center;
+        height: 45vw;
+        width: 70%;
+    }
+    #menu {
+        display: block;
+        color: brown;
+        background-color: rgb(255, 218, 138);
+        font-size: 1.2em;
+        font-weight: bold;
+        border: 3px solid brown;
+        border-radius: 0.3em;
+        position: absolute;
+        right: 1vw;
+        top: 1vw;
+        z-index: 9999;
+        transition: 0.5s;
+    }
+    #menu:hover {
+        color: brown;
+        background-color: rgb(255, 218, 138);
+        transform: scale(1.2);
+    }
+    #menu-cerrar {
+        display: none;
+    }
+    #menu-check:checked ~ label #menu-abrir {
+        display: none;
+    }
+    #menu-check:checked ~ label #menu-cerrar {
+        display: block;
+    }
+    header div.container nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vw;
+        width: 40vw;
+        background-color: burlywood;
+        padding-top: 0.5em;
+        opacity: 0.8;
+        color: black;
+    }
+    header div.container nav ul {
+        width: 100%;
+        display: block;
+    }
+    header div.container nav ul li {
+        width: 100%;
     }
 
+    header div.container nav ul li a {
+        display: block;
+        color: rgb(58, 40, 0);
+        background-color: burlywood;
+        justify-content: center;
+        width: 100%;
+    }
+    header div.container nav ul li a:hover {
+        background-color: #fff;
+        color: black;
+    }
+    header div.container nav .boton-invertido {
+        border: 0;
+        border-radius: 0;
+    }
+/* BARRA DE NAVEGACION *//* BARRA DE NAVEGACION */
+
+/* INDEX *//* INDEX *//* INDEX *//* INDEX *//* INDEX *//* INDEX */
     .main-vinilos{
         width: 100%;
         max-width:80%;
@@ -722,7 +656,6 @@ table {
         grid-template-columns: 20fr 20fr;
         gap: 40px;
     }
-    
     .main-index{
         background-color: rgb(255, 218, 138);
         display: grid;
@@ -759,14 +692,195 @@ table {
     .texto-center{
         display: flex;
         justify-content: center;
-
     }
-    
-    .titulo-principal{
-        font-size: 6vw;
-    }
+/* INDEX *//* INDEX *//* INDEX *//* INDEX *//* INDEX */
 }
-/* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*//* ESTILOS BARRA DE NAVEGACION*/
+@media only screen and (max-width: 450px)  {
+    .titulo-principal{
+        font-size: 10vw;
+    }
+/* BARRA DE NAVEGACION *//* BARRA DE NAVEGACION */
+    header h1 a, header h1 a span {
+        padding: 0;
+        font-size: 6vw;
+        font-family: 'Lobster Two';
+    }
+    header div.container {
+        display: flex;
+        place-content: space-between;
+    }
+    header div.container label span {
+        display: block;
+    }
+    #menu-check:not(:checked) ~ nav {
+        display: none;
+    }
+    #menu-check:checked ~ nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        place-content: center;
+        justify-content: center;
+        height: 45vw;
+        width: 70%;
+    }
+    #menu {
+        display: block;
+        color: brown;
+        background-color: rgb(255, 218, 138);
+        font-size: 1.2em;
+        font-weight: bold;
+        border: 3px solid brown;
+        border-radius: 0.3em;
+        position: absolute;
+        right: 1vw;
+        top: 1vw;
+        z-index: 9999;
+        transition: 0.5s;
+    }
+    #menu:hover {
+        color: brown;
+        background-color: rgb(255, 218, 138);
+        transform: scale(1.2);
+    }
+    #menu-cerrar {
+        display: none;
+    }
+    #menu-check:checked ~ label #menu-abrir {
+        display: none;
+    }
+    #menu-check:checked ~ label #menu-cerrar {
+        display: block;
+    }
+    header div.container nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vw;
+        width: 40vw;
+        background-color: burlywood;
+        padding-top: 0.5em;
+        opacity: 0.8;
+        color: black;
+    }
+    header div.container nav ul {
+        width: 100%;
+        display: block;
+    }
+    header div.container nav ul li {
+        width: 100%;
+    }
+
+    header div.container nav ul li a {
+        display: block;
+        color: rgb(58, 40, 0);
+        background-color: burlywood;
+        justify-content: center;
+        width: 100%;
+    }
+    header div.container nav ul li a:hover {
+        background-color: #fff;
+        color: black;
+    }
+    header div.container nav .boton-invertido {
+        border: 0;
+        border-radius: 0;
+    }
+/* BARRA DE NAVEGACION *//* BARRA DE NAVEGACION */
+
+/*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*/
+    .main-contacto {
+        background-color: rgb(255, 218, 138);
+        display: grid;
+        grid-template-rows: 1fr 4fr 4fr 1fr;
+    }
+    .h1-contacto {
+        grid-row-end: 1;
+        grid-row-start: 2;
+        text-align: center;
+    }
+    .formulario-contacto {
+        grid-row-end: 2;
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin: 1px 3px;
+        width: 90%;
+        margin: 1vh auto;
+    }
+    .form-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-iframe{
+        grid-row-end: 3;
+        grid-row-start: 4;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 90%;
+        margin: 10vh auto;
+    }
+    .header {
+        width: 100%;
+    }
+    .main-contacto {
+        width: 100%
+    }
+/*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*/
+
+/* INDEX *//* INDEX *//* INDEX *//* INDEX *//* INDEX *//* INDEX */
+
+    .main-vinilos{
+        width: 100%;
+        max-width: 50vw;
+        margin:20vw;
+        padding: 0.4vw 0.6vw;
+        display: grid;
+        grid-template-columns: 55vw;
+        gap: 30px;
+    }
+    .main-index{
+        background-color: rgb(255, 218, 138);
+        display: grid;
+        grid-template-rows: 0.10fr 0.55fr 0.10fr 4.8fr;
+    }
+    .titulo-index{
+        grid-row-start: 1;
+        text-align: center;
+        font-size: x-large;
+    }
+    .main-index-img {
+        width:fit-content;
+        height: auto;
+        text-align: center; 
+    }
+    .main-index-img img {
+        width: 40vw;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .main-index-img p {
+        padding: 10px;
+        font-size: large;
+        align-items: center;
+        text-align: center;
+    }
+    .texto-vinilos{
+        color: black;
+        font-size: medium;
+        font-weight: bold;
+        text-align: center;
+    }
+    .texto-center{
+        display: flex;
+        justify-content: center;
+    }
+
+/* INDEX *//* INDEX *//* INDEX *//* INDEX *//* INDEX */
+}
 
 
 /* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES */
