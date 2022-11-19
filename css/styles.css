@@ -73,12 +73,13 @@ header div.container nav {
 header div.container nav ul {
     display: flex;
     flex-direction: row;
-    place-content: space-around;
+    justify-content: end;
     margin: 1.5vw 0;
 }
 header div.container nav ul li {
     list-style-type: none;
     transition: 0.3s;
+    margin: 0 0.5vw;
 }
 header div.container nav ul li:hover {
     transform: scale(1.2);
